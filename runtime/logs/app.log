@@ -1,0 +1,2703 @@
+2026-03-25 17:47:25 [::1][-][51cf0602c90715200581770f21][error][Exception] Exception: {"vendor_invoice_number":["Purchase Invoice # cannot be blank."],"due_date":["Due Date cannot be blank."],"hst":["HST\/GST cannot be blank."],"subtotal":["Subtotal cannot be blank."],"hst_amount":["Hst Amount cannot be blank."]} in C:\laragons\www\hkmis\yii2app\controllers\VendorInvoiceController.php:449
+Stack trace:
+#0 [internal function]: app\controllers\VendorInvoiceController->actionCreateFromPo('12')
+#1 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\InlineAction.php(66): call_user_func_array(Array, Array)
+#2 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Controller.php(197): yii\base\InlineAction->runWithParams(Array)
+#3 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Module.php(554): yii\base\Controller->runAction('create-from-po', Array)
+#4 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\web\Application.php(112): yii\base\Module->runAction('vendor-invoice/...', Array)
+#5 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Application.php(391): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 C:\laragons\www\hkmis\yii2app\web\index.php(12): yii\base\Application->run()
+#7 {main}
+2026-03-25 17:47:25 [::1][-][51cf0602c90715200581770f21][info][application] $_GET = [
+    'r' => 'vendor-invoice/create-from-po'
+    'id' => '12'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '51cf0602c90715200581770f21'
+    '_csrf' => '1040ee37a9983dff0b8b367819d45ce1e55ba1d6425de271447c717f3378fbb9a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"TpNRyuEgWIwWIMt2wdFM2mn-4j6pVyug\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'quzdzil'
+    '__captcha/site/captchacount' => 1
+    'userId' => 1
+    'username' => 'admin'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragons\\www\\hkmis\\yii2app\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '54063'
+    'SERVER_SOFTWARE' => 'PHP/8.3.30 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=vendor-invoice%2Fcreate-from-po&id=12'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragons\\www\\hkmis\\yii2app\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=vendor-invoice%2Fcreate-from-po&id=12'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/index.php?r=purchase-order/view&id=12'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8,da;q=0.7,es;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=51cf0602c90715200581770f21; _csrf=1040ee37a9983dff0b8b367819d45ce1e55ba1d6425de271447c717f3378fbb9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22TpNRyuEgWIwWIMt2wdFM2mn-4j6pVyug%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1774460845.4054
+    'REQUEST_TIME' => 1774460845
+]
+2026-03-25 17:51:32 [::1][-][51cf0602c90715200581770f21][error][Exception] Exception: {"vendor_invoice_number":["Purchase Invoice # cannot be blank."],"due_date":["Due Date cannot be blank."],"hst":["HST\/GST cannot be blank."],"subtotal":["Subtotal cannot be blank."],"hst_amount":["Hst Amount cannot be blank."]} in C:\laragons\www\hkmis\yii2app\controllers\VendorInvoiceController.php:449
+Stack trace:
+#0 [internal function]: app\controllers\VendorInvoiceController->actionCreateFromPo('12')
+#1 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\InlineAction.php(66): call_user_func_array(Array, Array)
+#2 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Controller.php(197): yii\base\InlineAction->runWithParams(Array)
+#3 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Module.php(554): yii\base\Controller->runAction('create-from-po', Array)
+#4 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\web\Application.php(112): yii\base\Module->runAction('vendor-invoice/...', Array)
+#5 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Application.php(391): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 C:\laragons\www\hkmis\yii2app\web\index.php(12): yii\base\Application->run()
+#7 {main}
+2026-03-25 17:51:32 [::1][-][51cf0602c90715200581770f21][info][application] $_GET = [
+    'r' => 'vendor-invoice/create-from-po'
+    'id' => '12'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '51cf0602c90715200581770f21'
+    '_csrf' => '1040ee37a9983dff0b8b367819d45ce1e55ba1d6425de271447c717f3378fbb9a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"TpNRyuEgWIwWIMt2wdFM2mn-4j6pVyug\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'quzdzil'
+    '__captcha/site/captchacount' => 1
+    'userId' => 1
+    'username' => 'admin'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragons\\www\\hkmis\\yii2app\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '56859'
+    'SERVER_SOFTWARE' => 'PHP/8.3.30 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=vendor-invoice%2Fcreate-from-po&id=12'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragons\\www\\hkmis\\yii2app\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=vendor-invoice%2Fcreate-from-po&id=12'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/index.php?r=purchase-order/view&id=12'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8,da;q=0.7,es;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=51cf0602c90715200581770f21; _csrf=1040ee37a9983dff0b8b367819d45ce1e55ba1d6425de271447c717f3378fbb9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22TpNRyuEgWIwWIMt2wdFM2mn-4j6pVyug%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1774461092.4079
+    'REQUEST_TIME' => 1774461092
+]
+2026-03-25 17:53:30 [::1][-][51cf0602c90715200581770f21][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Setting unknown property: app\models\TblVendorInvoice::purchase_status in C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Component.php:226
+Stack trace:
+#0 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\BaseActiveRecord.php(321): yii\base\Component->__set('purchase_status', 1)
+#1 C:\laragons\www\hkmis\yii2app\controllers\VendorInvoiceController.php(453): yii\db\BaseActiveRecord->__set('purchase_status', 1)
+#2 [internal function]: app\controllers\VendorInvoiceController->actionCreateFromPo('12')
+#3 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\InlineAction.php(66): call_user_func_array(Array, Array)
+#4 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Controller.php(197): yii\base\InlineAction->runWithParams(Array)
+#5 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Module.php(554): yii\base\Controller->runAction('create-from-po', Array)
+#6 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\web\Application.php(112): yii\base\Module->runAction('vendor-invoice/...', Array)
+#7 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Application.php(391): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 C:\laragons\www\hkmis\yii2app\web\index.php(12): yii\base\Application->run()
+#9 {main}
+2026-03-25 17:53:30 [::1][-][51cf0602c90715200581770f21][info][application] $_GET = [
+    'r' => 'vendor-invoice/create-from-po'
+    'id' => '12'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '51cf0602c90715200581770f21'
+    '_csrf' => '1040ee37a9983dff0b8b367819d45ce1e55ba1d6425de271447c717f3378fbb9a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"TpNRyuEgWIwWIMt2wdFM2mn-4j6pVyug\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'quzdzil'
+    '__captcha/site/captchacount' => 1
+    'userId' => 1
+    'username' => 'admin'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragons\\www\\hkmis\\yii2app\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '57395'
+    'SERVER_SOFTWARE' => 'PHP/8.3.30 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=vendor-invoice%2Fcreate-from-po&id=12'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragons\\www\\hkmis\\yii2app\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=vendor-invoice%2Fcreate-from-po&id=12'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/index.php?r=purchase-order/view&id=12'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8,da;q=0.7,es;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=51cf0602c90715200581770f21; _csrf=1040ee37a9983dff0b8b367819d45ce1e55ba1d6425de271447c717f3378fbb9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22TpNRyuEgWIwWIMt2wdFM2mn-4j6pVyug%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1774461210.7271
+    'REQUEST_TIME' => 1774461210
+]
+2026-03-25 17:54:41 [::1][-][51cf0602c90715200581770f21][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Setting unknown property: app\models\TblVendorInvoice::payment_status in C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Component.php:226
+Stack trace:
+#0 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\BaseActiveRecord.php(321): yii\base\Component->__set('payment_status', 0)
+#1 C:\laragons\www\hkmis\yii2app\controllers\VendorInvoiceController.php(454): yii\db\BaseActiveRecord->__set('payment_status', 0)
+#2 [internal function]: app\controllers\VendorInvoiceController->actionCreateFromPo('12')
+#3 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\InlineAction.php(66): call_user_func_array(Array, Array)
+#4 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Controller.php(197): yii\base\InlineAction->runWithParams(Array)
+#5 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Module.php(554): yii\base\Controller->runAction('create-from-po', Array)
+#6 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\web\Application.php(112): yii\base\Module->runAction('vendor-invoice/...', Array)
+#7 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Application.php(391): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 C:\laragons\www\hkmis\yii2app\web\index.php(12): yii\base\Application->run()
+#9 {main}
+2026-03-25 17:54:41 [::1][-][51cf0602c90715200581770f21][info][application] $_GET = [
+    'r' => 'vendor-invoice/create-from-po'
+    'id' => '12'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '51cf0602c90715200581770f21'
+    '_csrf' => '1040ee37a9983dff0b8b367819d45ce1e55ba1d6425de271447c717f3378fbb9a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"TpNRyuEgWIwWIMt2wdFM2mn-4j6pVyug\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'quzdzil'
+    '__captcha/site/captchacount' => 1
+    'userId' => 1
+    'username' => 'admin'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragons\\www\\hkmis\\yii2app\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '59767'
+    'SERVER_SOFTWARE' => 'PHP/8.3.30 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=vendor-invoice%2Fcreate-from-po&id=12'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragons\\www\\hkmis\\yii2app\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=vendor-invoice%2Fcreate-from-po&id=12'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/index.php?r=purchase-order/view&id=12'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8,da;q=0.7,es;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=51cf0602c90715200581770f21; _csrf=1040ee37a9983dff0b8b367819d45ce1e55ba1d6425de271447c717f3378fbb9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22TpNRyuEgWIwWIMt2wdFM2mn-4j6pVyug%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1774461281.8773
+    'REQUEST_TIME' => 1774461281
+]
+2026-03-27 08:04:40 [::1][-][51cf0602c90715200581770f21][error][Exception] Exception: {"fk_product_id":["Fk Product ID cannot be blank."]} in C:\laragons\www\hkmis\yii2app\controllers\VendorInvoiceController.php:478
+Stack trace:
+#0 [internal function]: app\controllers\VendorInvoiceController->actionCreateFromPo('10')
+#1 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\InlineAction.php(66): call_user_func_array(Array, Array)
+#2 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Controller.php(197): yii\base\InlineAction->runWithParams(Array)
+#3 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Module.php(554): yii\base\Controller->runAction('create-from-po', Array)
+#4 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\web\Application.php(112): yii\base\Module->runAction('vendor-invoice/...', Array)
+#5 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Application.php(391): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 C:\laragons\www\hkmis\yii2app\web\index.php(12): yii\base\Application->run()
+#7 {main}
+2026-03-27 08:04:39 [::1][-][51cf0602c90715200581770f21][info][application] $_GET = [
+    'r' => 'vendor-invoice/create-from-po'
+    'id' => '10'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '51cf0602c90715200581770f21'
+    '_csrf' => 'a66e287e440b29cbf4c316e2541a9a74b35f386df2e06fdfc371599bda04d984a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_8ARoJXVYxF3RE1Hm9aCydSIiFel8Xfh\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'quzdzil'
+    '__captcha/site/captchacount' => 1
+    'userId' => 1
+    'username' => 'admin'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragons\\www\\hkmis\\yii2app\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '61568'
+    'SERVER_SOFTWARE' => 'PHP/8.3.30 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=vendor-invoice%2Fcreate-from-po&id=10'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragons\\www\\hkmis\\yii2app\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=vendor-invoice%2Fcreate-from-po&id=10'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/index.php?r=purchase-order/view&id=10'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8,da;q=0.7,es;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=51cf0602c90715200581770f21; _csrf=a66e287e440b29cbf4c316e2541a9a74b35f386df2e06fdfc371599bda04d984a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_8ARoJXVYxF3RE1Hm9aCydSIiFel8Xfh%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1774598679.83
+    'REQUEST_TIME' => 1774598679
+]
+2026-03-27 14:58:40 [::1][-][51cf0602c90715200581770f21][error][Error] Error: Class "app\models\TblUserLocation" not found in C:\laragons\www\hkmis\yii2app\views\vendor-invoice\index.php:40
+Stack trace:
+#0 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\View.php(347): require()
+#1 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\laragons\\www...', Array)
+#2 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\laragons\\www...', Array, Object(app\controllers\VendorInvoiceController))
+#3 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Controller.php(450): yii\base\View->render('index', Array, Object(app\controllers\VendorInvoiceController))
+#4 C:\laragons\www\hkmis\yii2app\controllers\VendorInvoiceController.php(95): yii\base\Controller->render('index', Array)
+#5 [internal function]: app\controllers\VendorInvoiceController->actionIndex()
+#6 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\InlineAction.php(66): call_user_func_array(Array, Array)
+#7 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Controller.php(197): yii\base\InlineAction->runWithParams(Array)
+#8 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Module.php(554): yii\base\Controller->runAction('index', Array)
+#9 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\web\Application.php(112): yii\base\Module->runAction('vendor-invoice/...', Array)
+#10 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Application.php(391): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\laragons\www\hkmis\yii2app\web\index.php(12): yii\base\Application->run()
+#12 {main}
+2026-03-27 14:58:39 [::1][-][51cf0602c90715200581770f21][info][application] $_GET = [
+    'r' => 'vendor-invoice/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '51cf0602c90715200581770f21'
+    '_csrf' => '60de883e1c40f5699822f982d4994ea398b96fcc3f0ffc22de6b3237e36e07f4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Xp4xhd6dqc-_ByAVsGRyoMZVkOGa0eAP\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'quzdzil'
+    '__captcha/site/captchacount' => 1
+    'userId' => 1
+    'username' => 'admin'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragons\\www\\hkmis\\yii2app\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '58922'
+    'SERVER_SOFTWARE' => 'PHP/8.3.30 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=vendor-invoice%2Findex'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragons\\www\\hkmis\\yii2app\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=vendor-invoice%2Findex'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/index.php?r=purchase-order%2Fcreate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8,da;q=0.7,es;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=51cf0602c90715200581770f21; _csrf=60de883e1c40f5699822f982d4994ea398b96fcc3f0ffc22de6b3237e36e07f4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Xp4xhd6dqc-_ByAVsGRyoMZVkOGa0eAP%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1774623519.6983
+    'REQUEST_TIME' => 1774623519
+]
+2026-03-27 15:04:22 [::1][-][51cf0602c90715200581770f21][error][Error] Error: Class "app\components\UserAccessControl" not found in C:\laragons\www\hkmis\yii2app\controllers\BaseController.php:20
+Stack trace:
+#0 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Controller.php(195): app\controllers\BaseController->beforeAction(Object(yii\base\InlineAction))
+#1 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Module.php(554): yii\base\Controller->runAction('index', Array)
+#2 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\web\Application.php(112): yii\base\Module->runAction('vendor-invoice/...', Array)
+#3 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Application.php(391): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 C:\laragons\www\hkmis\yii2app\web\index.php(12): yii\base\Application->run()
+#5 {main}
+2026-03-27 15:04:22 [::1][-][51cf0602c90715200581770f21][info][application] $_GET = [
+    'r' => 'vendor-invoice/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '51cf0602c90715200581770f21'
+    '_csrf' => '60de883e1c40f5699822f982d4994ea398b96fcc3f0ffc22de6b3237e36e07f4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Xp4xhd6dqc-_ByAVsGRyoMZVkOGa0eAP\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'quzdzil'
+    '__captcha/site/captchacount' => 1
+    'userId' => 1
+    'username' => 'admin'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragons\\www\\hkmis\\yii2app\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '49278'
+    'SERVER_SOFTWARE' => 'PHP/8.3.30 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=vendor-invoice%2Findex'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragons\\www\\hkmis\\yii2app\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=vendor-invoice%2Findex'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/index.php?r=purchase-order%2Fcreate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8,da;q=0.7,es;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=51cf0602c90715200581770f21; _csrf=60de883e1c40f5699822f982d4994ea398b96fcc3f0ffc22de6b3237e36e07f4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Xp4xhd6dqc-_ByAVsGRyoMZVkOGa0eAP%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1774623862.2452
+    'REQUEST_TIME' => 1774623862
+]
+2026-03-27 15:04:24 [::1][-][51cf0602c90715200581770f21][error][Error] Error: Class "app\components\UserAccessControl" not found in C:\laragons\www\hkmis\yii2app\controllers\BaseController.php:20
+Stack trace:
+#0 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Controller.php(195): app\controllers\BaseController->beforeAction(Object(yii\base\InlineAction))
+#1 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Module.php(554): yii\base\Controller->runAction('index', Array)
+#2 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\web\Application.php(112): yii\base\Module->runAction('vendor-invoice/...', Array)
+#3 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Application.php(391): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 C:\laragons\www\hkmis\yii2app\web\index.php(12): yii\base\Application->run()
+#5 {main}
+2026-03-27 15:04:24 [::1][-][51cf0602c90715200581770f21][info][application] $_GET = [
+    'r' => 'vendor-invoice/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '51cf0602c90715200581770f21'
+    '_csrf' => '60de883e1c40f5699822f982d4994ea398b96fcc3f0ffc22de6b3237e36e07f4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Xp4xhd6dqc-_ByAVsGRyoMZVkOGa0eAP\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'quzdzil'
+    '__captcha/site/captchacount' => 1
+    'userId' => 1
+    'username' => 'admin'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragons\\www\\hkmis\\yii2app\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '53561'
+    'SERVER_SOFTWARE' => 'PHP/8.3.30 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=vendor-invoice%2Findex'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragons\\www\\hkmis\\yii2app\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=vendor-invoice%2Findex'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/index.php?r=purchase-order%2Fcreate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8,da;q=0.7,es;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=51cf0602c90715200581770f21; _csrf=60de883e1c40f5699822f982d4994ea398b96fcc3f0ffc22de6b3237e36e07f4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Xp4xhd6dqc-_ByAVsGRyoMZVkOGa0eAP%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1774623864.59
+    'REQUEST_TIME' => 1774623864
+]
+2026-03-27 15:04:25 [::1][-][51cf0602c90715200581770f21][error][Error] Error: Class "app\components\UserAccessControl" not found in C:\laragons\www\hkmis\yii2app\controllers\BaseController.php:20
+Stack trace:
+#0 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Controller.php(195): app\controllers\BaseController->beforeAction(Object(yii\base\InlineAction))
+#1 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Module.php(554): yii\base\Controller->runAction('index', Array)
+#2 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\web\Application.php(112): yii\base\Module->runAction('vendor-invoice/...', Array)
+#3 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Application.php(391): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 C:\laragons\www\hkmis\yii2app\web\index.php(12): yii\base\Application->run()
+#5 {main}
+2026-03-27 15:04:25 [::1][-][51cf0602c90715200581770f21][info][application] $_GET = [
+    'r' => 'vendor-invoice/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '51cf0602c90715200581770f21'
+    '_csrf' => '60de883e1c40f5699822f982d4994ea398b96fcc3f0ffc22de6b3237e36e07f4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Xp4xhd6dqc-_ByAVsGRyoMZVkOGa0eAP\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'quzdzil'
+    '__captcha/site/captchacount' => 1
+    'userId' => 1
+    'username' => 'admin'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragons\\www\\hkmis\\yii2app\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '51949'
+    'SERVER_SOFTWARE' => 'PHP/8.3.30 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=vendor-invoice%2Findex'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragons\\www\\hkmis\\yii2app\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=vendor-invoice%2Findex'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/index.php?r=purchase-order%2Fcreate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8,da;q=0.7,es;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=51cf0602c90715200581770f21; _csrf=60de883e1c40f5699822f982d4994ea398b96fcc3f0ffc22de6b3237e36e07f4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Xp4xhd6dqc-_ByAVsGRyoMZVkOGa0eAP%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1774623865.6051
+    'REQUEST_TIME' => 1774623865
+]
+2026-03-27 15:04:46 [::1][-][51cf0602c90715200581770f21][error][yii\db\Exception] PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '), 0)
+             - IFNULL((SELECT SUM(it.quantity)
+                       FROM' at line 3 in C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\Command.php:1320
+Stack trace:
+#0 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\Command.php(1320): PDOStatement->execute()
+#1 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\Command.php(1186): yii\db\Command->internalExecute('SELECT SUM(subq...')
+#2 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\Command.php(443): yii\db\Command->queryInternal('fetchColumn', 0)
+#3 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\Query.php(304): yii\db\Command->queryScalar()
+#4 C:\laragons\www\hkmis\yii2app\views\site\index.php(40): yii\db\Query->scalar()
+#5 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\View.php(347): require('C:\\laragons\\www...')
+#6 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\laragons\\www...', Array)
+#7 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\laragons\\www...', Array, Object(app\controllers\SiteController))
+#8 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Controller.php(450): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#9 C:\laragons\www\hkmis\yii2app\controllers\SiteController.php(86): yii\base\Controller->render('index')
+#10 [internal function]: app\controllers\SiteController->actionIndex()
+#11 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\InlineAction.php(66): call_user_func_array(Array, Array)
+#12 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Controller.php(197): yii\base\InlineAction->runWithParams(Array)
+#13 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Module.php(554): yii\base\Controller->runAction('', Array)
+#14 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\web\Application.php(112): yii\base\Module->runAction('', Array)
+#15 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Application.php(391): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 C:\laragons\www\hkmis\yii2app\web\index.php(12): yii\base\Application->run()
+#17 {main}
+
+Next yii\db\Exception: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '), 0)
+             - IFNULL((SELECT SUM(it.quantity)
+                       FROM' at line 3
+The SQL being executed was: SELECT SUM(subquery.current_qty) AS `total_qty` FROM (SELECT `p`.`id`, IFNULL((SELECT SUM(pr.no_of_items)
+                     FROM tbl_product_receiving pr
+                     WHERE pr.fk_product_id = p.id AND pr.status = 1 and pr.fk_location_id = ), 0)
+             - IFNULL((SELECT SUM(it.quantity)
+                       FROM tbl_invoice_item it
+                       WHERE it.fk_product_id = p.id AND it.status = 1 AND it.fk_invoice_id in (select id from tbl_invoice where fk_bill_from_id = )), 0)
+             AS current_qty FROM `tbl_product` `p` WHERE `p`.`status`=1 GROUP BY `p`.`id`) `subquery` in C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\Schema.php:683
+Stack trace:
+#0 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\Command.php(1325): yii\db\Schema->convertException(Object(PDOException), 'SELECT SUM(subq...')
+#1 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\Command.php(1186): yii\db\Command->internalExecute('SELECT SUM(subq...')
+#2 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\Command.php(443): yii\db\Command->queryInternal('fetchColumn', 0)
+#3 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\Query.php(304): yii\db\Command->queryScalar()
+#4 C:\laragons\www\hkmis\yii2app\views\site\index.php(40): yii\db\Query->scalar()
+#5 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\View.php(347): require('C:\\laragons\\www...')
+#6 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\laragons\\www...', Array)
+#7 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\laragons\\www...', Array, Object(app\controllers\SiteController))
+#8 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Controller.php(450): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#9 C:\laragons\www\hkmis\yii2app\controllers\SiteController.php(86): yii\base\Controller->render('index')
+#10 [internal function]: app\controllers\SiteController->actionIndex()
+#11 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\InlineAction.php(66): call_user_func_array(Array, Array)
+#12 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Controller.php(197): yii\base\InlineAction->runWithParams(Array)
+#13 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Module.php(554): yii\base\Controller->runAction('', Array)
+#14 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\web\Application.php(112): yii\base\Module->runAction('', Array)
+#15 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Application.php(391): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 C:\laragons\www\hkmis\yii2app\web\index.php(12): yii\base\Application->run()
+#17 {main}
+Additional Information:
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '), 0)
+             - IFNULL((SELECT SUM(it.quantity)
+                       FROM' at line 3
+)
+
+2026-03-27 15:04:45 [::1][-][51cf0602c90715200581770f21][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '51cf0602c90715200581770f21'
+    '_csrf' => '60de883e1c40f5699822f982d4994ea398b96fcc3f0ffc22de6b3237e36e07f4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Xp4xhd6dqc-_ByAVsGRyoMZVkOGa0eAP\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'quzdzil'
+    '__captcha/site/captchacount' => 1
+    'userId' => 1
+    'username' => 'admin'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragons\\www\\hkmis\\yii2app\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '56929'
+    'SERVER_SOFTWARE' => 'PHP/8.3.30 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragons\\www\\hkmis\\yii2app\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8,da;q=0.7,es;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=51cf0602c90715200581770f21; _csrf=60de883e1c40f5699822f982d4994ea398b96fcc3f0ffc22de6b3237e36e07f4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Xp4xhd6dqc-_ByAVsGRyoMZVkOGa0eAP%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1774623885.6072
+    'REQUEST_TIME' => 1774623885
+]
+2026-03-27 15:05:59 [::1][-][51cf0602c90715200581770f21][error][yii\db\Exception] PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '), 0)
+             - IFNULL((SELECT SUM(it.quantity)
+                       FROM' at line 3 in C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\Command.php:1320
+Stack trace:
+#0 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\Command.php(1320): PDOStatement->execute()
+#1 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\Command.php(1186): yii\db\Command->internalExecute('SELECT SUM(subq...')
+#2 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\Command.php(443): yii\db\Command->queryInternal('fetchColumn', 0)
+#3 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\Query.php(304): yii\db\Command->queryScalar()
+#4 C:\laragons\www\hkmis\yii2app\views\site\index.php(40): yii\db\Query->scalar()
+#5 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\View.php(347): require('C:\\laragons\\www...')
+#6 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\laragons\\www...', Array)
+#7 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\laragons\\www...', Array, Object(app\controllers\SiteController))
+#8 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Controller.php(450): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#9 C:\laragons\www\hkmis\yii2app\controllers\SiteController.php(86): yii\base\Controller->render('index')
+#10 [internal function]: app\controllers\SiteController->actionIndex()
+#11 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\InlineAction.php(66): call_user_func_array(Array, Array)
+#12 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Controller.php(197): yii\base\InlineAction->runWithParams(Array)
+#13 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Module.php(554): yii\base\Controller->runAction('', Array)
+#14 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\web\Application.php(112): yii\base\Module->runAction('', Array)
+#15 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Application.php(391): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 C:\laragons\www\hkmis\yii2app\web\index.php(12): yii\base\Application->run()
+#17 {main}
+
+Next yii\db\Exception: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '), 0)
+             - IFNULL((SELECT SUM(it.quantity)
+                       FROM' at line 3
+The SQL being executed was: SELECT SUM(subquery.current_qty) AS `total_qty` FROM (SELECT `p`.`id`, IFNULL((SELECT SUM(pr.no_of_items)
+                     FROM tbl_product_receiving pr
+                     WHERE pr.fk_product_id = p.id AND pr.status = 1 and pr.fk_location_id = ), 0)
+             - IFNULL((SELECT SUM(it.quantity)
+                       FROM tbl_invoice_item it
+                       WHERE it.fk_product_id = p.id AND it.status = 1 AND it.fk_invoice_id in (select id from tbl_invoice where fk_bill_from_id = )), 0)
+             AS current_qty FROM `tbl_product` `p` WHERE `p`.`status`=1 GROUP BY `p`.`id`) `subquery` in C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\Schema.php:683
+Stack trace:
+#0 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\Command.php(1325): yii\db\Schema->convertException(Object(PDOException), 'SELECT SUM(subq...')
+#1 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\Command.php(1186): yii\db\Command->internalExecute('SELECT SUM(subq...')
+#2 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\Command.php(443): yii\db\Command->queryInternal('fetchColumn', 0)
+#3 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\Query.php(304): yii\db\Command->queryScalar()
+#4 C:\laragons\www\hkmis\yii2app\views\site\index.php(40): yii\db\Query->scalar()
+#5 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\View.php(347): require('C:\\laragons\\www...')
+#6 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\laragons\\www...', Array)
+#7 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\laragons\\www...', Array, Object(app\controllers\SiteController))
+#8 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Controller.php(450): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#9 C:\laragons\www\hkmis\yii2app\controllers\SiteController.php(86): yii\base\Controller->render('index')
+#10 [internal function]: app\controllers\SiteController->actionIndex()
+#11 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\InlineAction.php(66): call_user_func_array(Array, Array)
+#12 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Controller.php(197): yii\base\InlineAction->runWithParams(Array)
+#13 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Module.php(554): yii\base\Controller->runAction('', Array)
+#14 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\web\Application.php(112): yii\base\Module->runAction('', Array)
+#15 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Application.php(391): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 C:\laragons\www\hkmis\yii2app\web\index.php(12): yii\base\Application->run()
+#17 {main}
+Additional Information:
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '), 0)
+             - IFNULL((SELECT SUM(it.quantity)
+                       FROM' at line 3
+)
+
+2026-03-27 15:05:59 [::1][-][51cf0602c90715200581770f21][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '51cf0602c90715200581770f21'
+    '_csrf' => '60de883e1c40f5699822f982d4994ea398b96fcc3f0ffc22de6b3237e36e07f4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Xp4xhd6dqc-_ByAVsGRyoMZVkOGa0eAP\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'quzdzil'
+    '__captcha/site/captchacount' => 1
+    'userId' => 1
+    'username' => 'admin'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragons\\www\\hkmis\\yii2app\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '64669'
+    'SERVER_SOFTWARE' => 'PHP/8.3.30 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragons\\www\\hkmis\\yii2app\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8,da;q=0.7,es;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=51cf0602c90715200581770f21; _csrf=60de883e1c40f5699822f982d4994ea398b96fcc3f0ffc22de6b3237e36e07f4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Xp4xhd6dqc-_ByAVsGRyoMZVkOGa0eAP%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1774623959.6134
+    'REQUEST_TIME' => 1774623959
+]
+2026-03-27 15:06:40 [::1][-][51cf0602c90715200581770f21][error][yii\db\Exception] PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '), 0)
+             - IFNULL((SELECT SUM(it.quantity)
+                       FROM' at line 3 in C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\Command.php:1320
+Stack trace:
+#0 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\Command.php(1320): PDOStatement->execute()
+#1 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\Command.php(1186): yii\db\Command->internalExecute('SELECT SUM(subq...')
+#2 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\Command.php(443): yii\db\Command->queryInternal('fetchColumn', 0)
+#3 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\Query.php(304): yii\db\Command->queryScalar()
+#4 C:\laragons\www\hkmis\yii2app\views\site\index.php(40): yii\db\Query->scalar()
+#5 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\View.php(347): require('C:\\laragons\\www...')
+#6 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\laragons\\www...', Array)
+#7 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\laragons\\www...', Array, Object(app\controllers\SiteController))
+#8 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Controller.php(450): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#9 C:\laragons\www\hkmis\yii2app\controllers\SiteController.php(86): yii\base\Controller->render('index')
+#10 [internal function]: app\controllers\SiteController->actionIndex()
+#11 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\InlineAction.php(66): call_user_func_array(Array, Array)
+#12 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Controller.php(197): yii\base\InlineAction->runWithParams(Array)
+#13 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Module.php(554): yii\base\Controller->runAction('', Array)
+#14 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\web\Application.php(112): yii\base\Module->runAction('', Array)
+#15 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Application.php(391): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 C:\laragons\www\hkmis\yii2app\web\index.php(12): yii\base\Application->run()
+#17 {main}
+
+Next yii\db\Exception: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '), 0)
+             - IFNULL((SELECT SUM(it.quantity)
+                       FROM' at line 3
+The SQL being executed was: SELECT SUM(subquery.current_qty) AS `total_qty` FROM (SELECT `p`.`id`, IFNULL((SELECT SUM(pr.no_of_items)
+                     FROM tbl_product_receiving pr
+                     WHERE pr.fk_product_id = p.id AND pr.status = 1 and pr.fk_location_id = ), 0)
+             - IFNULL((SELECT SUM(it.quantity)
+                       FROM tbl_invoice_item it
+                       WHERE it.fk_product_id = p.id AND it.status = 1 AND it.fk_invoice_id in (select id from tbl_invoice where fk_bill_from_id = )), 0)
+             AS current_qty FROM `tbl_product` `p` WHERE `p`.`status`=1 GROUP BY `p`.`id`) `subquery` in C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\Schema.php:683
+Stack trace:
+#0 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\Command.php(1325): yii\db\Schema->convertException(Object(PDOException), 'SELECT SUM(subq...')
+#1 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\Command.php(1186): yii\db\Command->internalExecute('SELECT SUM(subq...')
+#2 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\Command.php(443): yii\db\Command->queryInternal('fetchColumn', 0)
+#3 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\Query.php(304): yii\db\Command->queryScalar()
+#4 C:\laragons\www\hkmis\yii2app\views\site\index.php(40): yii\db\Query->scalar()
+#5 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\View.php(347): require('C:\\laragons\\www...')
+#6 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\laragons\\www...', Array)
+#7 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\laragons\\www...', Array, Object(app\controllers\SiteController))
+#8 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Controller.php(450): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#9 C:\laragons\www\hkmis\yii2app\controllers\SiteController.php(86): yii\base\Controller->render('index')
+#10 [internal function]: app\controllers\SiteController->actionIndex()
+#11 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\InlineAction.php(66): call_user_func_array(Array, Array)
+#12 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Controller.php(197): yii\base\InlineAction->runWithParams(Array)
+#13 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Module.php(554): yii\base\Controller->runAction('', Array)
+#14 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\web\Application.php(112): yii\base\Module->runAction('', Array)
+#15 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Application.php(391): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 C:\laragons\www\hkmis\yii2app\web\index.php(12): yii\base\Application->run()
+#17 {main}
+Additional Information:
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '), 0)
+             - IFNULL((SELECT SUM(it.quantity)
+                       FROM' at line 3
+)
+
+2026-03-27 15:06:40 [::1][-][51cf0602c90715200581770f21][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '51cf0602c90715200581770f21'
+    '_csrf' => '60de883e1c40f5699822f982d4994ea398b96fcc3f0ffc22de6b3237e36e07f4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Xp4xhd6dqc-_ByAVsGRyoMZVkOGa0eAP\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'quzdzil'
+    '__captcha/site/captchacount' => 1
+    'userId' => 1
+    'username' => 'admin'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragons\\www\\hkmis\\yii2app\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '49199'
+    'SERVER_SOFTWARE' => 'PHP/8.3.30 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragons\\www\\hkmis\\yii2app\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8,da;q=0.7,es;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=51cf0602c90715200581770f21; _csrf=60de883e1c40f5699822f982d4994ea398b96fcc3f0ffc22de6b3237e36e07f4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Xp4xhd6dqc-_ByAVsGRyoMZVkOGa0eAP%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1774624000.2572
+    'REQUEST_TIME' => 1774624000
+]
+2026-03-27 15:08:02 [::1][-][kmamn9632bujot36dt5d8nud4s][error][Error] Error: Class "app\components\UserAccessControl" not found in C:\laragons\www\hkmis\yii2app\controllers\BaseController.php:20
+Stack trace:
+#0 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Controller.php(195): app\controllers\BaseController->beforeAction(Object(yii\base\InlineAction))
+#1 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Module.php(554): yii\base\Controller->runAction('index', Array)
+#2 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\web\Application.php(112): yii\base\Module->runAction('vendor-invoice/...', Array)
+#3 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Application.php(391): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 C:\laragons\www\hkmis\yii2app\web\index.php(12): yii\base\Application->run()
+#5 {main}
+2026-03-27 15:08:02 [::1][-][kmamn9632bujot36dt5d8nud4s][info][application] $_GET = [
+    'r' => 'vendor-invoice/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'kmamn9632bujot36dt5d8nud4s'
+    '_csrf' => '41bc4da8315f5462e5419413371fe7cecb4c2d76f8ff977952288e0d45abfcc3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"elO3uxi6oM5LwMnvB_m1cZBdG7vXC4kb\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'username' => 'MANJOT'
+    'userId' => 21
+    'userCompany' => '1'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragons\\www\\hkmis\\yii2app\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60807'
+    'SERVER_SOFTWARE' => 'PHP/8.3.30 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=vendor-invoice%2Findex'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragons\\www\\hkmis\\yii2app\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=vendor-invoice%2Findex'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/index.php?r=site%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.9'
+    'HTTP_COOKIE' => 'PHPSESSID=kmamn9632bujot36dt5d8nud4s; _csrf=41bc4da8315f5462e5419413371fe7cecb4c2d76f8ff977952288e0d45abfcc3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22elO3uxi6oM5LwMnvB_m1cZBdG7vXC4kb%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1774624082.5913
+    'REQUEST_TIME' => 1774624082
+]
+2026-03-27 15:08:07 [::1][-][kmamn9632bujot36dt5d8nud4s][error][Error] Error: Class "app\components\UserAccessControl" not found in C:\laragons\www\hkmis\yii2app\controllers\BaseController.php:20
+Stack trace:
+#0 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Controller.php(195): app\controllers\BaseController->beforeAction(Object(yii\base\InlineAction))
+#1 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Module.php(554): yii\base\Controller->runAction('index', Array)
+#2 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\web\Application.php(112): yii\base\Module->runAction('vendor-invoice/...', Array)
+#3 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Application.php(391): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 C:\laragons\www\hkmis\yii2app\web\index.php(12): yii\base\Application->run()
+#5 {main}
+2026-03-27 15:08:07 [::1][-][kmamn9632bujot36dt5d8nud4s][info][application] $_GET = [
+    'r' => 'vendor-invoice/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'kmamn9632bujot36dt5d8nud4s'
+    '_csrf' => '41bc4da8315f5462e5419413371fe7cecb4c2d76f8ff977952288e0d45abfcc3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"elO3uxi6oM5LwMnvB_m1cZBdG7vXC4kb\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'username' => 'MANJOT'
+    'userId' => 21
+    'userCompany' => '1'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragons\\www\\hkmis\\yii2app\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '54244'
+    'SERVER_SOFTWARE' => 'PHP/8.3.30 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=vendor-invoice%2Findex'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragons\\www\\hkmis\\yii2app\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=vendor-invoice%2Findex'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/index.php?r=site%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.9'
+    'HTTP_COOKIE' => 'PHPSESSID=kmamn9632bujot36dt5d8nud4s; _csrf=41bc4da8315f5462e5419413371fe7cecb4c2d76f8ff977952288e0d45abfcc3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22elO3uxi6oM5LwMnvB_m1cZBdG7vXC4kb%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1774624087.7672
+    'REQUEST_TIME' => 1774624087
+]
+2026-03-27 15:27:41 [::1][-][kmamn9632bujot36dt5d8nud4s][error][yii\db\IntegrityException] PDOException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'crt_by' in where clause is ambiguous in C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\Command.php:1320
+Stack trace:
+#0 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\Command.php(1320): PDOStatement->execute()
+#1 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\Command.php(1186): yii\db\Command->internalExecute('SELECT COUNT(*)...')
+#2 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\Command.php(443): yii\db\Command->queryInternal('fetchColumn', 0)
+#3 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\Query.php(506): yii\db\Command->queryScalar()
+#4 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\ActiveQuery.php(381): yii\db\Query->queryScalar('COUNT(*)', Object(yii\db\Connection))
+#5 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\Query.php(368): yii\db\ActiveQuery->queryScalar('COUNT(*)', Object(yii\db\Connection))
+#6 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\data\ActiveDataProvider.php(168): yii\db\Query->count('*', NULL)
+#7 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\data\BaseDataProvider.php(170): yii\data\ActiveDataProvider->prepareTotalCount()
+#8 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\data\ActiveDataProvider.php(105): yii\data\BaseDataProvider->getTotalCount()
+#9 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\data\BaseDataProvider.php(102): yii\data\ActiveDataProvider->prepareModels()
+#10 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\data\BaseDataProvider.php(115): yii\data\BaseDataProvider->prepare()
+#11 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\data\BaseDataProvider.php(156): yii\data\BaseDataProvider->getModels()
+#12 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\widgets\BaseListView.php(190): yii\data\BaseDataProvider->getCount()
+#13 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\widgets\BaseListView.php(158): yii\widgets\BaseListView->renderSummary()
+#14 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\grid\GridView.php(325): yii\widgets\BaseListView->renderSection('{summary}')
+#15 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\widgets\BaseListView.php(135): yii\grid\GridView->renderSection('{summary}')
+#16 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#17 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\widgets\BaseListView.php(134): preg_replace_callback('/{\\w+}/', Object(Closure), '{summary}\n{item...')
+#18 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\grid\GridView.php(300): yii\widgets\BaseListView->run()
+#19 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Widget.php(148): yii\grid\GridView->run()
+#20 C:\laragons\www\hkmis\yii2app\views\purchase-order\index.php(93): yii\base\Widget::widget(Array)
+#21 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\View.php(347): require('C:\\laragons\\www...')
+#22 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\laragons\\www...', Array)
+#23 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\laragons\\www...', Array, Object(app\controllers\PurchaseOrderController))
+#24 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Controller.php(450): yii\base\View->render('index', Array, Object(app\controllers\PurchaseOrderController))
+#25 C:\laragons\www\hkmis\yii2app\controllers\PurchaseOrderController.php(88): yii\base\Controller->render('index', Array)
+#26 [internal function]: app\controllers\PurchaseOrderController->actionIndex()
+#27 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\InlineAction.php(66): call_user_func_array(Array, Array)
+#28 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Controller.php(197): yii\base\InlineAction->runWithParams(Array)
+#29 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Module.php(554): yii\base\Controller->runAction('index', Array)
+#30 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\web\Application.php(112): yii\base\Module->runAction('purchase-order/...', Array)
+#31 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Application.php(391): yii\web\Application->handleRequest(Object(yii\web\Request))
+#32 C:\laragons\www\hkmis\yii2app\web\index.php(12): yii\base\Application->run()
+#33 {main}
+
+Next yii\db\IntegrityException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'crt_by' in where clause is ambiguous
+The SQL being executed was: SELECT COUNT(*) FROM (SELECT DISTINCT `tbl_purchase_order`.* FROM `tbl_purchase_order` LEFT JOIN `tbl_vendor` ON `tbl_purchase_order`.`fk_vendor_id` = `tbl_vendor`.`id` WHERE (tbl_purchase_order.status != 0) AND (`tbl_purchase_order`.`fk_location_id`='1') AND (`crt_by`='7')) `c` in C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\Schema.php:683
+Stack trace:
+#0 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\Command.php(1325): yii\db\Schema->convertException(Object(PDOException), 'SELECT COUNT(*)...')
+#1 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\Command.php(1186): yii\db\Command->internalExecute('SELECT COUNT(*)...')
+#2 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\Command.php(443): yii\db\Command->queryInternal('fetchColumn', 0)
+#3 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\Query.php(506): yii\db\Command->queryScalar()
+#4 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\ActiveQuery.php(381): yii\db\Query->queryScalar('COUNT(*)', Object(yii\db\Connection))
+#5 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\Query.php(368): yii\db\ActiveQuery->queryScalar('COUNT(*)', Object(yii\db\Connection))
+#6 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\data\ActiveDataProvider.php(168): yii\db\Query->count('*', NULL)
+#7 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\data\BaseDataProvider.php(170): yii\data\ActiveDataProvider->prepareTotalCount()
+#8 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\data\ActiveDataProvider.php(105): yii\data\BaseDataProvider->getTotalCount()
+#9 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\data\BaseDataProvider.php(102): yii\data\ActiveDataProvider->prepareModels()
+#10 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\data\BaseDataProvider.php(115): yii\data\BaseDataProvider->prepare()
+#11 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\data\BaseDataProvider.php(156): yii\data\BaseDataProvider->getModels()
+#12 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\widgets\BaseListView.php(190): yii\data\BaseDataProvider->getCount()
+#13 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\widgets\BaseListView.php(158): yii\widgets\BaseListView->renderSummary()
+#14 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\grid\GridView.php(325): yii\widgets\BaseListView->renderSection('{summary}')
+#15 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\widgets\BaseListView.php(135): yii\grid\GridView->renderSection('{summary}')
+#16 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#17 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\widgets\BaseListView.php(134): preg_replace_callback('/{\\w+}/', Object(Closure), '{summary}\n{item...')
+#18 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\grid\GridView.php(300): yii\widgets\BaseListView->run()
+#19 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Widget.php(148): yii\grid\GridView->run()
+#20 C:\laragons\www\hkmis\yii2app\views\purchase-order\index.php(93): yii\base\Widget::widget(Array)
+#21 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\View.php(347): require('C:\\laragons\\www...')
+#22 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\laragons\\www...', Array)
+#23 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\laragons\\www...', Array, Object(app\controllers\PurchaseOrderController))
+#24 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Controller.php(450): yii\base\View->render('index', Array, Object(app\controllers\PurchaseOrderController))
+#25 C:\laragons\www\hkmis\yii2app\controllers\PurchaseOrderController.php(88): yii\base\Controller->render('index', Array)
+#26 [internal function]: app\controllers\PurchaseOrderController->actionIndex()
+#27 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\InlineAction.php(66): call_user_func_array(Array, Array)
+#28 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Controller.php(197): yii\base\InlineAction->runWithParams(Array)
+#29 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Module.php(554): yii\base\Controller->runAction('index', Array)
+#30 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\web\Application.php(112): yii\base\Module->runAction('purchase-order/...', Array)
+#31 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Application.php(391): yii\web\Application->handleRequest(Object(yii\web\Request))
+#32 C:\laragons\www\hkmis\yii2app\web\index.php(12): yii\base\Application->run()
+#33 {main}
+Additional Information:
+Array
+(
+    [0] => 23000
+    [1] => 1052
+    [2] => Column 'crt_by' in where clause is ambiguous
+)
+
+2026-03-27 15:27:41 [::1][-][kmamn9632bujot36dt5d8nud4s][info][application] $_GET = [
+    'TblPurchaseOrderSearch' => [
+        'po_number' => ''
+        'vendor' => ''
+        'po_date' => ''
+        'expected_delivery_date' => ''
+        'total_amount' => ''
+        'purchase_status' => ''
+        'payment_status' => ''
+        'crt_by' => '7'
+        'approved_by' => ''
+        'internal_notes' => ''
+    ]
+    'r' => 'purchase-order/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'kmamn9632bujot36dt5d8nud4s'
+    '_csrf' => '41bc4da8315f5462e5419413371fe7cecb4c2d76f8ff977952288e0d45abfcc3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"elO3uxi6oM5LwMnvB_m1cZBdG7vXC4kb\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'username' => 'MANJOT'
+    'userId' => 21
+    'userCompany' => '1'
+    'TblVendorInvoiceSearch_search' => [
+        'id' => null
+        'vendor_invoice_number' => null
+        'purchase_invoice_no' => null
+        'fk_vendor_id' => null
+        'fk_purchase_order_id' => null
+        'fk_terms_id' => null
+        'invoice_date' => null
+        'due_date' => null
+        'hst' => null
+        'discount_type' => null
+        'discount_value' => null
+        'subtotal' => null
+        'hst_amount' => null
+        'total_amount' => null
+        'comments' => null
+        'fk_location_id' => null
+        'invoice_file' => null
+        'status' => null
+        'ip' => null
+        'crt_time' => null
+        'crt_by' => null
+        'mod_time' => null
+        'mod_by' => null
+        'po_id' => null
+        'vendor' => null
+        'payment_status' => null
+        'total_received' => null
+    ]
+    'TblPurchaseOrderSearch_search' => [
+        'id' => null
+        'po_number' => ''
+        'fk_vendor_id' => null
+        'po_date' => ''
+        'expected_delivery_date' => ''
+        'hst' => null
+        'subtotal' => null
+        'hst_amount' => null
+        'total_amount' => ''
+        'comments' => null
+        'internal_notes' => ''
+        'purchase_status' => ''
+        'payment_status' => ''
+        'approved_by' => ''
+        'fk_location_id' => null
+        'status' => null
+        'ip' => null
+        'crt_time' => null
+        'crt_by' => '7'
+        'mod_time' => null
+        'mod_by' => null
+        'is_converted' => null
+        'vendor' => ''
+    ]
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragons\\www\\hkmis\\yii2app\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '61728'
+    'SERVER_SOFTWARE' => 'PHP/8.3.30 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?TblPurchaseOrderSearch%5Bpo_number%5D=&TblPurchaseOrderSearch%5Bvendor%5D=&TblPurchaseOrderSearch%5Bpo_date%5D=&TblPurchaseOrderSearch%5Bexpected_delivery_date%5D=&TblPurchaseOrderSearch%5Btotal_amount%5D=&TblPurchaseOrderSearch%5Bpurchase_status%5D=&TblPurchaseOrderSearch%5Bpayment_status%5D=&TblPurchaseOrderSearch%5Bcrt_by%5D=7&TblPurchaseOrderSearch%5Bapproved_by%5D=&TblPurchaseOrderSearch%5Binternal_notes%5D=&r=purchase-order%2Findex'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragons\\www\\hkmis\\yii2app\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'TblPurchaseOrderSearch%5Bpo_number%5D=&TblPurchaseOrderSearch%5Bvendor%5D=&TblPurchaseOrderSearch%5Bpo_date%5D=&TblPurchaseOrderSearch%5Bexpected_delivery_date%5D=&TblPurchaseOrderSearch%5Btotal_amount%5D=&TblPurchaseOrderSearch%5Bpurchase_status%5D=&TblPurchaseOrderSearch%5Bpayment_status%5D=&TblPurchaseOrderSearch%5Bcrt_by%5D=7&TblPurchaseOrderSearch%5Bapproved_by%5D=&TblPurchaseOrderSearch%5Binternal_notes%5D=&r=purchase-order%2Findex'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/index.php?r=purchase-order%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.9'
+    'HTTP_COOKIE' => 'PHPSESSID=kmamn9632bujot36dt5d8nud4s; _csrf=41bc4da8315f5462e5419413371fe7cecb4c2d76f8ff977952288e0d45abfcc3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22elO3uxi6oM5LwMnvB_m1cZBdG7vXC4kb%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1774625261.2186
+    'REQUEST_TIME' => 1774625261
+]
+2026-03-27 15:27:45 [::1][-][kmamn9632bujot36dt5d8nud4s][error][yii\db\IntegrityException] PDOException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'crt_by' in where clause is ambiguous in C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\Command.php:1320
+Stack trace:
+#0 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\Command.php(1320): PDOStatement->execute()
+#1 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\Command.php(1186): yii\db\Command->internalExecute('SELECT COUNT(*)...')
+#2 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\Command.php(443): yii\db\Command->queryInternal('fetchColumn', 0)
+#3 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\Query.php(506): yii\db\Command->queryScalar()
+#4 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\ActiveQuery.php(381): yii\db\Query->queryScalar('COUNT(*)', Object(yii\db\Connection))
+#5 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\Query.php(368): yii\db\ActiveQuery->queryScalar('COUNT(*)', Object(yii\db\Connection))
+#6 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\data\ActiveDataProvider.php(168): yii\db\Query->count('*', NULL)
+#7 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\data\BaseDataProvider.php(170): yii\data\ActiveDataProvider->prepareTotalCount()
+#8 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\data\ActiveDataProvider.php(105): yii\data\BaseDataProvider->getTotalCount()
+#9 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\data\BaseDataProvider.php(102): yii\data\ActiveDataProvider->prepareModels()
+#10 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\data\BaseDataProvider.php(115): yii\data\BaseDataProvider->prepare()
+#11 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\data\BaseDataProvider.php(156): yii\data\BaseDataProvider->getModels()
+#12 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\widgets\BaseListView.php(190): yii\data\BaseDataProvider->getCount()
+#13 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\widgets\BaseListView.php(158): yii\widgets\BaseListView->renderSummary()
+#14 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\grid\GridView.php(325): yii\widgets\BaseListView->renderSection('{summary}')
+#15 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\widgets\BaseListView.php(135): yii\grid\GridView->renderSection('{summary}')
+#16 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#17 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\widgets\BaseListView.php(134): preg_replace_callback('/{\\w+}/', Object(Closure), '{summary}\n{item...')
+#18 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\grid\GridView.php(300): yii\widgets\BaseListView->run()
+#19 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Widget.php(148): yii\grid\GridView->run()
+#20 C:\laragons\www\hkmis\yii2app\views\purchase-order\index.php(93): yii\base\Widget::widget(Array)
+#21 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\View.php(347): require('C:\\laragons\\www...')
+#22 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\laragons\\www...', Array)
+#23 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\laragons\\www...', Array, Object(app\controllers\PurchaseOrderController))
+#24 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Controller.php(450): yii\base\View->render('index', Array, Object(app\controllers\PurchaseOrderController))
+#25 C:\laragons\www\hkmis\yii2app\controllers\PurchaseOrderController.php(88): yii\base\Controller->render('index', Array)
+#26 [internal function]: app\controllers\PurchaseOrderController->actionIndex()
+#27 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\InlineAction.php(66): call_user_func_array(Array, Array)
+#28 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Controller.php(197): yii\base\InlineAction->runWithParams(Array)
+#29 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Module.php(554): yii\base\Controller->runAction('index', Array)
+#30 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\web\Application.php(112): yii\base\Module->runAction('purchase-order/...', Array)
+#31 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Application.php(391): yii\web\Application->handleRequest(Object(yii\web\Request))
+#32 C:\laragons\www\hkmis\yii2app\web\index.php(12): yii\base\Application->run()
+#33 {main}
+
+Next yii\db\IntegrityException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'crt_by' in where clause is ambiguous
+The SQL being executed was: SELECT COUNT(*) FROM (SELECT DISTINCT `tbl_purchase_order`.* FROM `tbl_purchase_order` LEFT JOIN `tbl_vendor` ON `tbl_purchase_order`.`fk_vendor_id` = `tbl_vendor`.`id` WHERE (tbl_purchase_order.status != 0) AND (`tbl_purchase_order`.`fk_location_id`='1') AND (`crt_by`='7')) `c` in C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\Schema.php:683
+Stack trace:
+#0 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\Command.php(1325): yii\db\Schema->convertException(Object(PDOException), 'SELECT COUNT(*)...')
+#1 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\Command.php(1186): yii\db\Command->internalExecute('SELECT COUNT(*)...')
+#2 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\Command.php(443): yii\db\Command->queryInternal('fetchColumn', 0)
+#3 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\Query.php(506): yii\db\Command->queryScalar()
+#4 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\ActiveQuery.php(381): yii\db\Query->queryScalar('COUNT(*)', Object(yii\db\Connection))
+#5 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\Query.php(368): yii\db\ActiveQuery->queryScalar('COUNT(*)', Object(yii\db\Connection))
+#6 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\data\ActiveDataProvider.php(168): yii\db\Query->count('*', NULL)
+#7 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\data\BaseDataProvider.php(170): yii\data\ActiveDataProvider->prepareTotalCount()
+#8 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\data\ActiveDataProvider.php(105): yii\data\BaseDataProvider->getTotalCount()
+#9 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\data\BaseDataProvider.php(102): yii\data\ActiveDataProvider->prepareModels()
+#10 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\data\BaseDataProvider.php(115): yii\data\BaseDataProvider->prepare()
+#11 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\data\BaseDataProvider.php(156): yii\data\BaseDataProvider->getModels()
+#12 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\widgets\BaseListView.php(190): yii\data\BaseDataProvider->getCount()
+#13 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\widgets\BaseListView.php(158): yii\widgets\BaseListView->renderSummary()
+#14 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\grid\GridView.php(325): yii\widgets\BaseListView->renderSection('{summary}')
+#15 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\widgets\BaseListView.php(135): yii\grid\GridView->renderSection('{summary}')
+#16 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#17 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\widgets\BaseListView.php(134): preg_replace_callback('/{\\w+}/', Object(Closure), '{summary}\n{item...')
+#18 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\grid\GridView.php(300): yii\widgets\BaseListView->run()
+#19 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Widget.php(148): yii\grid\GridView->run()
+#20 C:\laragons\www\hkmis\yii2app\views\purchase-order\index.php(93): yii\base\Widget::widget(Array)
+#21 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\View.php(347): require('C:\\laragons\\www...')
+#22 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\laragons\\www...', Array)
+#23 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\laragons\\www...', Array, Object(app\controllers\PurchaseOrderController))
+#24 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Controller.php(450): yii\base\View->render('index', Array, Object(app\controllers\PurchaseOrderController))
+#25 C:\laragons\www\hkmis\yii2app\controllers\PurchaseOrderController.php(88): yii\base\Controller->render('index', Array)
+#26 [internal function]: app\controllers\PurchaseOrderController->actionIndex()
+#27 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\InlineAction.php(66): call_user_func_array(Array, Array)
+#28 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Controller.php(197): yii\base\InlineAction->runWithParams(Array)
+#29 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Module.php(554): yii\base\Controller->runAction('index', Array)
+#30 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\web\Application.php(112): yii\base\Module->runAction('purchase-order/...', Array)
+#31 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Application.php(391): yii\web\Application->handleRequest(Object(yii\web\Request))
+#32 C:\laragons\www\hkmis\yii2app\web\index.php(12): yii\base\Application->run()
+#33 {main}
+Additional Information:
+Array
+(
+    [0] => 23000
+    [1] => 1052
+    [2] => Column 'crt_by' in where clause is ambiguous
+)
+
+2026-03-27 15:27:45 [::1][-][kmamn9632bujot36dt5d8nud4s][info][application] $_GET = [
+    'r' => 'purchase-order/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'kmamn9632bujot36dt5d8nud4s'
+    '_csrf' => '41bc4da8315f5462e5419413371fe7cecb4c2d76f8ff977952288e0d45abfcc3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"elO3uxi6oM5LwMnvB_m1cZBdG7vXC4kb\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'username' => 'MANJOT'
+    'userId' => 21
+    'userCompany' => '1'
+    'TblVendorInvoiceSearch_search' => [
+        'id' => null
+        'vendor_invoice_number' => null
+        'purchase_invoice_no' => null
+        'fk_vendor_id' => null
+        'fk_purchase_order_id' => null
+        'fk_terms_id' => null
+        'invoice_date' => null
+        'due_date' => null
+        'hst' => null
+        'discount_type' => null
+        'discount_value' => null
+        'subtotal' => null
+        'hst_amount' => null
+        'total_amount' => null
+        'comments' => null
+        'fk_location_id' => null
+        'invoice_file' => null
+        'status' => null
+        'ip' => null
+        'crt_time' => null
+        'crt_by' => null
+        'mod_time' => null
+        'mod_by' => null
+        'po_id' => null
+        'vendor' => null
+        'payment_status' => null
+        'total_received' => null
+    ]
+    'TblPurchaseOrderSearch_search' => [
+        'id' => null
+        'po_number' => ''
+        'fk_vendor_id' => null
+        'po_date' => ''
+        'expected_delivery_date' => ''
+        'hst' => null
+        'subtotal' => null
+        'hst_amount' => null
+        'total_amount' => ''
+        'comments' => null
+        'internal_notes' => ''
+        'purchase_status' => ''
+        'payment_status' => ''
+        'approved_by' => ''
+        'fk_location_id' => null
+        'status' => null
+        'ip' => null
+        'crt_time' => null
+        'crt_by' => '7'
+        'mod_time' => null
+        'mod_by' => null
+        'is_converted' => null
+        'vendor' => ''
+    ]
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragons\\www\\hkmis\\yii2app\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '58444'
+    'SERVER_SOFTWARE' => 'PHP/8.3.30 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=purchase-order%2Findex'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragons\\www\\hkmis\\yii2app\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=purchase-order%2Findex'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/index.php?r=vendor-invoice%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.9'
+    'HTTP_COOKIE' => 'PHPSESSID=kmamn9632bujot36dt5d8nud4s; _csrf=41bc4da8315f5462e5419413371fe7cecb4c2d76f8ff977952288e0d45abfcc3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22elO3uxi6oM5LwMnvB_m1cZBdG7vXC4kb%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1774625265.7742
+    'REQUEST_TIME' => 1774625265
+]
+2026-03-27 15:27:56 [::1][-][kmamn9632bujot36dt5d8nud4s][error][yii\db\IntegrityException] PDOException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'crt_by' in where clause is ambiguous in C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\Command.php:1320
+Stack trace:
+#0 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\Command.php(1320): PDOStatement->execute()
+#1 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\Command.php(1186): yii\db\Command->internalExecute('SELECT COUNT(*)...')
+#2 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\Command.php(443): yii\db\Command->queryInternal('fetchColumn', 0)
+#3 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\Query.php(506): yii\db\Command->queryScalar()
+#4 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\ActiveQuery.php(381): yii\db\Query->queryScalar('COUNT(*)', Object(yii\db\Connection))
+#5 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\Query.php(368): yii\db\ActiveQuery->queryScalar('COUNT(*)', Object(yii\db\Connection))
+#6 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\data\ActiveDataProvider.php(168): yii\db\Query->count('*', NULL)
+#7 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\data\BaseDataProvider.php(170): yii\data\ActiveDataProvider->prepareTotalCount()
+#8 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\data\ActiveDataProvider.php(105): yii\data\BaseDataProvider->getTotalCount()
+#9 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\data\BaseDataProvider.php(102): yii\data\ActiveDataProvider->prepareModels()
+#10 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\data\BaseDataProvider.php(115): yii\data\BaseDataProvider->prepare()
+#11 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\data\BaseDataProvider.php(156): yii\data\BaseDataProvider->getModels()
+#12 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\widgets\BaseListView.php(190): yii\data\BaseDataProvider->getCount()
+#13 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\widgets\BaseListView.php(158): yii\widgets\BaseListView->renderSummary()
+#14 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\grid\GridView.php(325): yii\widgets\BaseListView->renderSection('{summary}')
+#15 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\widgets\BaseListView.php(135): yii\grid\GridView->renderSection('{summary}')
+#16 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#17 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\widgets\BaseListView.php(134): preg_replace_callback('/{\\w+}/', Object(Closure), '{summary}\n{item...')
+#18 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\grid\GridView.php(300): yii\widgets\BaseListView->run()
+#19 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Widget.php(148): yii\grid\GridView->run()
+#20 C:\laragons\www\hkmis\yii2app\views\purchase-order\index.php(93): yii\base\Widget::widget(Array)
+#21 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\View.php(347): require('C:\\laragons\\www...')
+#22 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\laragons\\www...', Array)
+#23 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\laragons\\www...', Array, Object(app\controllers\PurchaseOrderController))
+#24 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Controller.php(450): yii\base\View->render('index', Array, Object(app\controllers\PurchaseOrderController))
+#25 C:\laragons\www\hkmis\yii2app\controllers\PurchaseOrderController.php(88): yii\base\Controller->render('index', Array)
+#26 [internal function]: app\controllers\PurchaseOrderController->actionIndex()
+#27 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\InlineAction.php(66): call_user_func_array(Array, Array)
+#28 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Controller.php(197): yii\base\InlineAction->runWithParams(Array)
+#29 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Module.php(554): yii\base\Controller->runAction('index', Array)
+#30 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\web\Application.php(112): yii\base\Module->runAction('purchase-order/...', Array)
+#31 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Application.php(391): yii\web\Application->handleRequest(Object(yii\web\Request))
+#32 C:\laragons\www\hkmis\yii2app\web\index.php(12): yii\base\Application->run()
+#33 {main}
+
+Next yii\db\IntegrityException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'crt_by' in where clause is ambiguous
+The SQL being executed was: SELECT COUNT(*) FROM (SELECT DISTINCT `tbl_purchase_order`.* FROM `tbl_purchase_order` LEFT JOIN `tbl_vendor` ON `tbl_purchase_order`.`fk_vendor_id` = `tbl_vendor`.`id` WHERE (tbl_purchase_order.status != 0) AND (`tbl_purchase_order`.`fk_location_id`='1') AND (`crt_by`='7')) `c` in C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\Schema.php:683
+Stack trace:
+#0 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\Command.php(1325): yii\db\Schema->convertException(Object(PDOException), 'SELECT COUNT(*)...')
+#1 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\Command.php(1186): yii\db\Command->internalExecute('SELECT COUNT(*)...')
+#2 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\Command.php(443): yii\db\Command->queryInternal('fetchColumn', 0)
+#3 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\Query.php(506): yii\db\Command->queryScalar()
+#4 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\ActiveQuery.php(381): yii\db\Query->queryScalar('COUNT(*)', Object(yii\db\Connection))
+#5 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\Query.php(368): yii\db\ActiveQuery->queryScalar('COUNT(*)', Object(yii\db\Connection))
+#6 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\data\ActiveDataProvider.php(168): yii\db\Query->count('*', NULL)
+#7 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\data\BaseDataProvider.php(170): yii\data\ActiveDataProvider->prepareTotalCount()
+#8 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\data\ActiveDataProvider.php(105): yii\data\BaseDataProvider->getTotalCount()
+#9 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\data\BaseDataProvider.php(102): yii\data\ActiveDataProvider->prepareModels()
+#10 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\data\BaseDataProvider.php(115): yii\data\BaseDataProvider->prepare()
+#11 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\data\BaseDataProvider.php(156): yii\data\BaseDataProvider->getModels()
+#12 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\widgets\BaseListView.php(190): yii\data\BaseDataProvider->getCount()
+#13 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\widgets\BaseListView.php(158): yii\widgets\BaseListView->renderSummary()
+#14 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\grid\GridView.php(325): yii\widgets\BaseListView->renderSection('{summary}')
+#15 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\widgets\BaseListView.php(135): yii\grid\GridView->renderSection('{summary}')
+#16 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#17 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\widgets\BaseListView.php(134): preg_replace_callback('/{\\w+}/', Object(Closure), '{summary}\n{item...')
+#18 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\grid\GridView.php(300): yii\widgets\BaseListView->run()
+#19 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Widget.php(148): yii\grid\GridView->run()
+#20 C:\laragons\www\hkmis\yii2app\views\purchase-order\index.php(93): yii\base\Widget::widget(Array)
+#21 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\View.php(347): require('C:\\laragons\\www...')
+#22 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\laragons\\www...', Array)
+#23 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\laragons\\www...', Array, Object(app\controllers\PurchaseOrderController))
+#24 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Controller.php(450): yii\base\View->render('index', Array, Object(app\controllers\PurchaseOrderController))
+#25 C:\laragons\www\hkmis\yii2app\controllers\PurchaseOrderController.php(88): yii\base\Controller->render('index', Array)
+#26 [internal function]: app\controllers\PurchaseOrderController->actionIndex()
+#27 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\InlineAction.php(66): call_user_func_array(Array, Array)
+#28 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Controller.php(197): yii\base\InlineAction->runWithParams(Array)
+#29 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Module.php(554): yii\base\Controller->runAction('index', Array)
+#30 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\web\Application.php(112): yii\base\Module->runAction('purchase-order/...', Array)
+#31 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Application.php(391): yii\web\Application->handleRequest(Object(yii\web\Request))
+#32 C:\laragons\www\hkmis\yii2app\web\index.php(12): yii\base\Application->run()
+#33 {main}
+Additional Information:
+Array
+(
+    [0] => 23000
+    [1] => 1052
+    [2] => Column 'crt_by' in where clause is ambiguous
+)
+
+2026-03-27 15:27:56 [::1][-][kmamn9632bujot36dt5d8nud4s][info][application] $_GET = [
+    'r' => 'purchase-order/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'kmamn9632bujot36dt5d8nud4s'
+    '_csrf' => '41bc4da8315f5462e5419413371fe7cecb4c2d76f8ff977952288e0d45abfcc3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"elO3uxi6oM5LwMnvB_m1cZBdG7vXC4kb\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'username' => 'MANJOT'
+    'userId' => 21
+    'userCompany' => '1'
+    'TblVendorInvoiceSearch_search' => [
+        'id' => null
+        'vendor_invoice_number' => null
+        'purchase_invoice_no' => null
+        'fk_vendor_id' => null
+        'fk_purchase_order_id' => null
+        'fk_terms_id' => null
+        'invoice_date' => null
+        'due_date' => null
+        'hst' => null
+        'discount_type' => null
+        'discount_value' => null
+        'subtotal' => null
+        'hst_amount' => null
+        'total_amount' => null
+        'comments' => null
+        'fk_location_id' => null
+        'invoice_file' => null
+        'status' => null
+        'ip' => null
+        'crt_time' => null
+        'crt_by' => null
+        'mod_time' => null
+        'mod_by' => null
+        'po_id' => null
+        'vendor' => null
+        'payment_status' => null
+        'total_received' => null
+    ]
+    'TblPurchaseOrderSearch_search' => [
+        'id' => null
+        'po_number' => ''
+        'fk_vendor_id' => null
+        'po_date' => ''
+        'expected_delivery_date' => ''
+        'hst' => null
+        'subtotal' => null
+        'hst_amount' => null
+        'total_amount' => ''
+        'comments' => null
+        'internal_notes' => ''
+        'purchase_status' => ''
+        'payment_status' => ''
+        'approved_by' => ''
+        'fk_location_id' => null
+        'status' => null
+        'ip' => null
+        'crt_time' => null
+        'crt_by' => '7'
+        'mod_time' => null
+        'mod_by' => null
+        'is_converted' => null
+        'vendor' => ''
+    ]
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragons\\www\\hkmis\\yii2app\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '50166'
+    'SERVER_SOFTWARE' => 'PHP/8.3.30 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=purchase-order%2Findex'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragons\\www\\hkmis\\yii2app\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=purchase-order%2Findex'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/index.php?r=vendor-invoice%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.9'
+    'HTTP_COOKIE' => 'PHPSESSID=kmamn9632bujot36dt5d8nud4s; _csrf=41bc4da8315f5462e5419413371fe7cecb4c2d76f8ff977952288e0d45abfcc3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22elO3uxi6oM5LwMnvB_m1cZBdG7vXC4kb%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1774625276.5991
+    'REQUEST_TIME' => 1774625276
+]
+2026-03-27 15:28:09 [::1][-][kmamn9632bujot36dt5d8nud4s][error][yii\db\IntegrityException] PDOException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'crt_by' in where clause is ambiguous in C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\Command.php:1320
+Stack trace:
+#0 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\Command.php(1320): PDOStatement->execute()
+#1 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\Command.php(1186): yii\db\Command->internalExecute('SELECT COUNT(*)...')
+#2 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\Command.php(443): yii\db\Command->queryInternal('fetchColumn', 0)
+#3 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\Query.php(506): yii\db\Command->queryScalar()
+#4 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\ActiveQuery.php(381): yii\db\Query->queryScalar('COUNT(*)', Object(yii\db\Connection))
+#5 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\Query.php(368): yii\db\ActiveQuery->queryScalar('COUNT(*)', Object(yii\db\Connection))
+#6 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\data\ActiveDataProvider.php(168): yii\db\Query->count('*', NULL)
+#7 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\data\BaseDataProvider.php(170): yii\data\ActiveDataProvider->prepareTotalCount()
+#8 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\data\ActiveDataProvider.php(105): yii\data\BaseDataProvider->getTotalCount()
+#9 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\data\BaseDataProvider.php(102): yii\data\ActiveDataProvider->prepareModels()
+#10 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\data\BaseDataProvider.php(115): yii\data\BaseDataProvider->prepare()
+#11 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\data\BaseDataProvider.php(156): yii\data\BaseDataProvider->getModels()
+#12 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\widgets\BaseListView.php(190): yii\data\BaseDataProvider->getCount()
+#13 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\widgets\BaseListView.php(158): yii\widgets\BaseListView->renderSummary()
+#14 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\grid\GridView.php(325): yii\widgets\BaseListView->renderSection('{summary}')
+#15 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\widgets\BaseListView.php(135): yii\grid\GridView->renderSection('{summary}')
+#16 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#17 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\widgets\BaseListView.php(134): preg_replace_callback('/{\\w+}/', Object(Closure), '{summary}\n{item...')
+#18 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\grid\GridView.php(300): yii\widgets\BaseListView->run()
+#19 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Widget.php(148): yii\grid\GridView->run()
+#20 C:\laragons\www\hkmis\yii2app\views\purchase-order\index.php(93): yii\base\Widget::widget(Array)
+#21 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\View.php(347): require('C:\\laragons\\www...')
+#22 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\laragons\\www...', Array)
+#23 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\laragons\\www...', Array, Object(app\controllers\PurchaseOrderController))
+#24 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Controller.php(450): yii\base\View->render('index', Array, Object(app\controllers\PurchaseOrderController))
+#25 C:\laragons\www\hkmis\yii2app\controllers\PurchaseOrderController.php(88): yii\base\Controller->render('index', Array)
+#26 [internal function]: app\controllers\PurchaseOrderController->actionIndex()
+#27 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\InlineAction.php(66): call_user_func_array(Array, Array)
+#28 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Controller.php(197): yii\base\InlineAction->runWithParams(Array)
+#29 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Module.php(554): yii\base\Controller->runAction('index', Array)
+#30 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\web\Application.php(112): yii\base\Module->runAction('purchase-order/...', Array)
+#31 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Application.php(391): yii\web\Application->handleRequest(Object(yii\web\Request))
+#32 C:\laragons\www\hkmis\yii2app\web\index.php(12): yii\base\Application->run()
+#33 {main}
+
+Next yii\db\IntegrityException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'crt_by' in where clause is ambiguous
+The SQL being executed was: SELECT COUNT(*) FROM (SELECT DISTINCT `tbl_purchase_order`.* FROM `tbl_purchase_order` LEFT JOIN `tbl_vendor` ON `tbl_purchase_order`.`fk_vendor_id` = `tbl_vendor`.`id` WHERE (tbl_purchase_order.status != 0) AND (`tbl_purchase_order`.`fk_location_id`='1') AND (`crt_by`='7')) `c` in C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\Schema.php:683
+Stack trace:
+#0 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\Command.php(1325): yii\db\Schema->convertException(Object(PDOException), 'SELECT COUNT(*)...')
+#1 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\Command.php(1186): yii\db\Command->internalExecute('SELECT COUNT(*)...')
+#2 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\Command.php(443): yii\db\Command->queryInternal('fetchColumn', 0)
+#3 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\Query.php(506): yii\db\Command->queryScalar()
+#4 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\ActiveQuery.php(381): yii\db\Query->queryScalar('COUNT(*)', Object(yii\db\Connection))
+#5 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\Query.php(368): yii\db\ActiveQuery->queryScalar('COUNT(*)', Object(yii\db\Connection))
+#6 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\data\ActiveDataProvider.php(168): yii\db\Query->count('*', NULL)
+#7 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\data\BaseDataProvider.php(170): yii\data\ActiveDataProvider->prepareTotalCount()
+#8 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\data\ActiveDataProvider.php(105): yii\data\BaseDataProvider->getTotalCount()
+#9 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\data\BaseDataProvider.php(102): yii\data\ActiveDataProvider->prepareModels()
+#10 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\data\BaseDataProvider.php(115): yii\data\BaseDataProvider->prepare()
+#11 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\data\BaseDataProvider.php(156): yii\data\BaseDataProvider->getModels()
+#12 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\widgets\BaseListView.php(190): yii\data\BaseDataProvider->getCount()
+#13 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\widgets\BaseListView.php(158): yii\widgets\BaseListView->renderSummary()
+#14 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\grid\GridView.php(325): yii\widgets\BaseListView->renderSection('{summary}')
+#15 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\widgets\BaseListView.php(135): yii\grid\GridView->renderSection('{summary}')
+#16 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#17 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\widgets\BaseListView.php(134): preg_replace_callback('/{\\w+}/', Object(Closure), '{summary}\n{item...')
+#18 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\grid\GridView.php(300): yii\widgets\BaseListView->run()
+#19 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Widget.php(148): yii\grid\GridView->run()
+#20 C:\laragons\www\hkmis\yii2app\views\purchase-order\index.php(93): yii\base\Widget::widget(Array)
+#21 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\View.php(347): require('C:\\laragons\\www...')
+#22 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\laragons\\www...', Array)
+#23 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\laragons\\www...', Array, Object(app\controllers\PurchaseOrderController))
+#24 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Controller.php(450): yii\base\View->render('index', Array, Object(app\controllers\PurchaseOrderController))
+#25 C:\laragons\www\hkmis\yii2app\controllers\PurchaseOrderController.php(88): yii\base\Controller->render('index', Array)
+#26 [internal function]: app\controllers\PurchaseOrderController->actionIndex()
+#27 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\InlineAction.php(66): call_user_func_array(Array, Array)
+#28 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Controller.php(197): yii\base\InlineAction->runWithParams(Array)
+#29 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Module.php(554): yii\base\Controller->runAction('index', Array)
+#30 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\web\Application.php(112): yii\base\Module->runAction('purchase-order/...', Array)
+#31 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Application.php(391): yii\web\Application->handleRequest(Object(yii\web\Request))
+#32 C:\laragons\www\hkmis\yii2app\web\index.php(12): yii\base\Application->run()
+#33 {main}
+Additional Information:
+Array
+(
+    [0] => 23000
+    [1] => 1052
+    [2] => Column 'crt_by' in where clause is ambiguous
+)
+
+2026-03-27 15:28:08 [::1][-][kmamn9632bujot36dt5d8nud4s][info][application] $_GET = [
+    'r' => 'purchase-order/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'kmamn9632bujot36dt5d8nud4s'
+    '_csrf' => '41bc4da8315f5462e5419413371fe7cecb4c2d76f8ff977952288e0d45abfcc3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"elO3uxi6oM5LwMnvB_m1cZBdG7vXC4kb\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'username' => 'MANJOT'
+    'userId' => 21
+    'userCompany' => '1'
+    'TblVendorInvoiceSearch_search' => [
+        'id' => null
+        'vendor_invoice_number' => null
+        'purchase_invoice_no' => null
+        'fk_vendor_id' => null
+        'fk_purchase_order_id' => null
+        'fk_terms_id' => null
+        'invoice_date' => null
+        'due_date' => null
+        'hst' => null
+        'discount_type' => null
+        'discount_value' => null
+        'subtotal' => null
+        'hst_amount' => null
+        'total_amount' => null
+        'comments' => null
+        'fk_location_id' => null
+        'invoice_file' => null
+        'status' => null
+        'ip' => null
+        'crt_time' => null
+        'crt_by' => null
+        'mod_time' => null
+        'mod_by' => null
+        'po_id' => null
+        'vendor' => null
+        'payment_status' => null
+        'total_received' => null
+    ]
+    'TblPurchaseOrderSearch_search' => [
+        'id' => null
+        'po_number' => ''
+        'fk_vendor_id' => null
+        'po_date' => ''
+        'expected_delivery_date' => ''
+        'hst' => null
+        'subtotal' => null
+        'hst_amount' => null
+        'total_amount' => ''
+        'comments' => null
+        'internal_notes' => ''
+        'purchase_status' => ''
+        'payment_status' => ''
+        'approved_by' => ''
+        'fk_location_id' => null
+        'status' => null
+        'ip' => null
+        'crt_time' => null
+        'crt_by' => '7'
+        'mod_time' => null
+        'mod_by' => null
+        'is_converted' => null
+        'vendor' => ''
+    ]
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragons\\www\\hkmis\\yii2app\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '56181'
+    'SERVER_SOFTWARE' => 'PHP/8.3.30 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=purchase-order%2Findex'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragons\\www\\hkmis\\yii2app\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=purchase-order%2Findex'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/index.php?r=vendor-invoice%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.9'
+    'HTTP_COOKIE' => 'PHPSESSID=kmamn9632bujot36dt5d8nud4s; _csrf=41bc4da8315f5462e5419413371fe7cecb4c2d76f8ff977952288e0d45abfcc3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22elO3uxi6oM5LwMnvB_m1cZBdG7vXC4kb%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1774625288.8743
+    'REQUEST_TIME' => 1774625288
+]
+2026-03-27 15:45:21 [::1][-][kmamn9632bujot36dt5d8nud4s][error][yii\base\ErrorException:8192] yii\base\ErrorException: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated in C:\laragons\www\hkmis\yii2app\controllers\VendorInvoiceController.php:574
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8192, 'preg_match(): P...', 'C:\\laragons\\www...', 574)
+#1 C:\laragons\www\hkmis\yii2app\controllers\VendorInvoiceController.php(574): preg_match('/(\\d+)$/', NULL, NULL)
+#2 [internal function]: app\controllers\VendorInvoiceController->actionCreateFromPo('12')
+#3 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\InlineAction.php(66): call_user_func_array(Array, Array)
+#4 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Controller.php(197): yii\base\InlineAction->runWithParams(Array)
+#5 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Module.php(554): yii\base\Controller->runAction('create-from-po', Array)
+#6 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\web\Application.php(112): yii\base\Module->runAction('vendor-invoice/...', Array)
+#7 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Application.php(391): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 C:\laragons\www\hkmis\yii2app\web\index.php(12): yii\base\Application->run()
+#9 {main}
+2026-03-27 15:45:21 [::1][-][kmamn9632bujot36dt5d8nud4s][info][application] $_GET = [
+    'r' => 'vendor-invoice/create-from-po'
+    'id' => '12'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'kmamn9632bujot36dt5d8nud4s'
+    '_csrf' => '41bc4da8315f5462e5419413371fe7cecb4c2d76f8ff977952288e0d45abfcc3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"elO3uxi6oM5LwMnvB_m1cZBdG7vXC4kb\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'username' => 'MANJOT'
+    'userId' => 21
+    'userCompany' => '1'
+    'TblVendorInvoiceSearch_search' => [
+        'id' => null
+        'vendor_invoice_number' => null
+        'purchase_invoice_no' => null
+        'fk_vendor_id' => null
+        'fk_purchase_order_id' => null
+        'fk_terms_id' => null
+        'invoice_date' => null
+        'due_date' => null
+        'hst' => null
+        'discount_type' => null
+        'discount_value' => null
+        'subtotal' => null
+        'hst_amount' => null
+        'total_amount' => null
+        'comments' => null
+        'fk_location_id' => null
+        'invoice_file' => null
+        'status' => null
+        'ip' => null
+        'crt_time' => null
+        'crt_by' => null
+        'mod_time' => null
+        'mod_by' => null
+        'po_id' => null
+        'vendor' => null
+        'payment_status' => null
+        'total_received' => null
+    ]
+    'TblPurchaseOrderSearch_search' => [
+        'id' => null
+        'po_number' => null
+        'fk_vendor_id' => null
+        'po_date' => null
+        'expected_delivery_date' => null
+        'hst' => null
+        'subtotal' => null
+        'hst_amount' => null
+        'total_amount' => null
+        'comments' => null
+        'internal_notes' => null
+        'purchase_status' => null
+        'payment_status' => null
+        'approved_by' => null
+        'fk_location_id' => null
+        'status' => null
+        'ip' => null
+        'crt_time' => null
+        'crt_by' => null
+        'mod_time' => null
+        'mod_by' => null
+        'is_converted' => null
+        'vendor' => null
+    ]
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragons\\www\\hkmis\\yii2app\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '65231'
+    'SERVER_SOFTWARE' => 'PHP/8.3.30 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=vendor-invoice%2Fcreate-from-po&id=12'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragons\\www\\hkmis\\yii2app\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=vendor-invoice%2Fcreate-from-po&id=12'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/index.php?r=purchase-order/view&id=12'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.9'
+    'HTTP_COOKIE' => 'PHPSESSID=kmamn9632bujot36dt5d8nud4s; _csrf=41bc4da8315f5462e5419413371fe7cecb4c2d76f8ff977952288e0d45abfcc3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22elO3uxi6oM5LwMnvB_m1cZBdG7vXC4kb%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1774626321.8113
+    'REQUEST_TIME' => 1774626321
+]
+2026-03-27 15:57:41 [::1][-][kmamn9632bujot36dt5d8nud4s][error][Exception] Exception: {"vendor_invoice_number":["Purchase Invoice # must be a string."],"purchase_invoice_no":["Vendor Invoice # must be a string."]} in C:\laragons\www\hkmis\yii2app\controllers\VendorInvoiceController.php:604
+Stack trace:
+#0 [internal function]: app\controllers\VendorInvoiceController->actionCreateFromPo('12')
+#1 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\InlineAction.php(66): call_user_func_array(Array, Array)
+#2 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Controller.php(197): yii\base\InlineAction->runWithParams(Array)
+#3 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Module.php(554): yii\base\Controller->runAction('create-from-po', Array)
+#4 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\web\Application.php(112): yii\base\Module->runAction('vendor-invoice/...', Array)
+#5 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Application.php(391): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 C:\laragons\www\hkmis\yii2app\web\index.php(12): yii\base\Application->run()
+#7 {main}
+2026-03-27 15:57:41 [::1][-][kmamn9632bujot36dt5d8nud4s][info][application] $_GET = [
+    'r' => 'vendor-invoice/create-from-po'
+    'id' => '12'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'kmamn9632bujot36dt5d8nud4s'
+    '_csrf' => '41bc4da8315f5462e5419413371fe7cecb4c2d76f8ff977952288e0d45abfcc3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"elO3uxi6oM5LwMnvB_m1cZBdG7vXC4kb\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'username' => 'MANJOT'
+    'userId' => 21
+    'userCompany' => '1'
+    'TblVendorInvoiceSearch_search' => [
+        'id' => null
+        'vendor_invoice_number' => null
+        'purchase_invoice_no' => null
+        'fk_vendor_id' => null
+        'fk_purchase_order_id' => null
+        'fk_terms_id' => null
+        'invoice_date' => null
+        'due_date' => null
+        'hst' => null
+        'discount_type' => null
+        'discount_value' => null
+        'subtotal' => null
+        'hst_amount' => null
+        'total_amount' => null
+        'comments' => null
+        'fk_location_id' => null
+        'invoice_file' => null
+        'status' => null
+        'ip' => null
+        'crt_time' => null
+        'crt_by' => null
+        'mod_time' => null
+        'mod_by' => null
+        'po_id' => null
+        'vendor' => null
+        'payment_status' => null
+        'total_received' => null
+    ]
+    'TblPurchaseOrderSearch_search' => [
+        'id' => null
+        'po_number' => null
+        'fk_vendor_id' => null
+        'po_date' => null
+        'expected_delivery_date' => null
+        'hst' => null
+        'subtotal' => null
+        'hst_amount' => null
+        'total_amount' => null
+        'comments' => null
+        'internal_notes' => null
+        'purchase_status' => null
+        'payment_status' => null
+        'approved_by' => null
+        'fk_location_id' => null
+        'status' => null
+        'ip' => null
+        'crt_time' => null
+        'crt_by' => null
+        'mod_time' => null
+        'mod_by' => null
+        'is_converted' => null
+        'vendor' => null
+    ]
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragons\\www\\hkmis\\yii2app\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '55259'
+    'SERVER_SOFTWARE' => 'PHP/8.3.30 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=vendor-invoice%2Fcreate-from-po&id=12'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragons\\www\\hkmis\\yii2app\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=vendor-invoice%2Fcreate-from-po&id=12'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/index.php?r=purchase-order/view&id=12'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.9'
+    'HTTP_COOKIE' => 'PHPSESSID=kmamn9632bujot36dt5d8nud4s; _csrf=41bc4da8315f5462e5419413371fe7cecb4c2d76f8ff977952288e0d45abfcc3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22elO3uxi6oM5LwMnvB_m1cZBdG7vXC4kb%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1774627061.4993
+    'REQUEST_TIME' => 1774627061
+]
+2026-03-27 15:59:06 [::1][-][kmamn9632bujot36dt5d8nud4s][error][yii\base\ErrorException:8192] yii\base\ErrorException: str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragons\www\hkmis\yii2app\views\vendor-invoice\_form.php:678
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8192, 'str_replace(): ...', 'C:\\laragons\\www...', 678)
+#1 C:\laragons\www\hkmis\yii2app\views\vendor-invoice\_form.php(678): str_replace(Array, ' ', NULL)
+#2 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\View.php(347): require('C:\\laragons\\www...')
+#3 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\laragons\\www...', Array)
+#4 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\laragons\\www...', Array, NULL)
+#5 C:\laragons\www\hkmis\yii2app\views\vendor-invoice\update.php(27): yii\base\View->render('_form', Array)
+#6 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\View.php(347): require('C:\\laragons\\www...')
+#7 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\laragons\\www...', Array)
+#8 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\laragons\\www...', Array, Object(app\controllers\VendorInvoiceController))
+#9 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Controller.php(450): yii\base\View->render('update', Array, Object(app\controllers\VendorInvoiceController))
+#10 C:\laragons\www\hkmis\yii2app\controllers\VendorInvoiceController.php(379): yii\base\Controller->render('update', Array)
+#11 [internal function]: app\controllers\VendorInvoiceController->actionUpdate('501')
+#12 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\InlineAction.php(66): call_user_func_array(Array, Array)
+#13 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Controller.php(197): yii\base\InlineAction->runWithParams(Array)
+#14 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Module.php(554): yii\base\Controller->runAction('update', Array)
+#15 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\web\Application.php(112): yii\base\Module->runAction('vendor-invoice/...', Array)
+#16 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Application.php(391): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 C:\laragons\www\hkmis\yii2app\web\index.php(12): yii\base\Application->run()
+#18 {main}
+2026-03-27 15:59:05 [::1][-][kmamn9632bujot36dt5d8nud4s][info][application] $_GET = [
+    'r' => 'vendor-invoice/update'
+    'id' => '501'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'kmamn9632bujot36dt5d8nud4s'
+    '_csrf' => '41bc4da8315f5462e5419413371fe7cecb4c2d76f8ff977952288e0d45abfcc3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"elO3uxi6oM5LwMnvB_m1cZBdG7vXC4kb\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'username' => 'MANJOT'
+    'userId' => 21
+    'userCompany' => '1'
+    'TblVendorInvoiceSearch_search' => [
+        'id' => null
+        'vendor_invoice_number' => null
+        'purchase_invoice_no' => null
+        'fk_vendor_id' => null
+        'fk_purchase_order_id' => null
+        'fk_terms_id' => null
+        'invoice_date' => null
+        'due_date' => null
+        'hst' => null
+        'discount_type' => null
+        'discount_value' => null
+        'subtotal' => null
+        'hst_amount' => null
+        'total_amount' => null
+        'comments' => null
+        'fk_location_id' => null
+        'invoice_file' => null
+        'status' => null
+        'ip' => null
+        'crt_time' => null
+        'crt_by' => null
+        'mod_time' => null
+        'mod_by' => null
+        'po_id' => null
+        'vendor' => null
+        'payment_status' => null
+        'total_received' => null
+    ]
+    'TblPurchaseOrderSearch_search' => [
+        'id' => null
+        'po_number' => null
+        'fk_vendor_id' => null
+        'po_date' => null
+        'expected_delivery_date' => null
+        'hst' => null
+        'subtotal' => null
+        'hst_amount' => null
+        'total_amount' => null
+        'comments' => null
+        'internal_notes' => null
+        'purchase_status' => null
+        'payment_status' => null
+        'approved_by' => null
+        'fk_location_id' => null
+        'status' => null
+        'ip' => null
+        'crt_time' => null
+        'crt_by' => null
+        'mod_time' => null
+        'mod_by' => null
+        'is_converted' => null
+        'vendor' => null
+    ]
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragons\\www\\hkmis\\yii2app\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '63021'
+    'SERVER_SOFTWARE' => 'PHP/8.3.30 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=vendor-invoice%2Fupdate&id=501'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragons\\www\\hkmis\\yii2app\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=vendor-invoice%2Fupdate&id=501'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_REFERER' => 'http://localhost:8080/index.php?r=purchase-order/view&id=12'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.9'
+    'HTTP_COOKIE' => 'PHPSESSID=kmamn9632bujot36dt5d8nud4s; _csrf=41bc4da8315f5462e5419413371fe7cecb4c2d76f8ff977952288e0d45abfcc3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22elO3uxi6oM5LwMnvB_m1cZBdG7vXC4kb%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1774627145.066
+    'REQUEST_TIME' => 1774627145
+]
+2026-03-27 16:00:13 [::1][-][kmamn9632bujot36dt5d8nud4s][error][yii\base\ErrorException:8192] yii\base\ErrorException: str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragons\www\hkmis\yii2app\views\vendor-invoice\_form.php:678
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8192, 'str_replace(): ...', 'C:\\laragons\\www...', 678)
+#1 C:\laragons\www\hkmis\yii2app\views\vendor-invoice\_form.php(678): str_replace(Array, ' ', NULL)
+#2 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\View.php(347): require('C:\\laragons\\www...')
+#3 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\laragons\\www...', Array)
+#4 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\laragons\\www...', Array, NULL)
+#5 C:\laragons\www\hkmis\yii2app\views\vendor-invoice\update.php(27): yii\base\View->render('_form', Array)
+#6 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\View.php(347): require('C:\\laragons\\www...')
+#7 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\laragons\\www...', Array)
+#8 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\laragons\\www...', Array, Object(app\controllers\VendorInvoiceController))
+#9 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Controller.php(450): yii\base\View->render('update', Array, Object(app\controllers\VendorInvoiceController))
+#10 C:\laragons\www\hkmis\yii2app\controllers\VendorInvoiceController.php(379): yii\base\Controller->render('update', Array)
+#11 [internal function]: app\controllers\VendorInvoiceController->actionUpdate('501')
+#12 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\InlineAction.php(66): call_user_func_array(Array, Array)
+#13 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Controller.php(197): yii\base\InlineAction->runWithParams(Array)
+#14 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Module.php(554): yii\base\Controller->runAction('update', Array)
+#15 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\web\Application.php(112): yii\base\Module->runAction('vendor-invoice/...', Array)
+#16 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Application.php(391): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 C:\laragons\www\hkmis\yii2app\web\index.php(12): yii\base\Application->run()
+#18 {main}
+2026-03-27 16:00:12 [::1][-][kmamn9632bujot36dt5d8nud4s][info][application] $_GET = [
+    'r' => 'vendor-invoice/update'
+    'id' => '501'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'kmamn9632bujot36dt5d8nud4s'
+    '_csrf' => '41bc4da8315f5462e5419413371fe7cecb4c2d76f8ff977952288e0d45abfcc3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"elO3uxi6oM5LwMnvB_m1cZBdG7vXC4kb\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'username' => 'MANJOT'
+    'userId' => 21
+    'userCompany' => '1'
+    'TblVendorInvoiceSearch_search' => [
+        'id' => null
+        'vendor_invoice_number' => null
+        'purchase_invoice_no' => null
+        'fk_vendor_id' => null
+        'fk_purchase_order_id' => null
+        'fk_terms_id' => null
+        'invoice_date' => null
+        'due_date' => null
+        'hst' => null
+        'discount_type' => null
+        'discount_value' => null
+        'subtotal' => null
+        'hst_amount' => null
+        'total_amount' => null
+        'comments' => null
+        'fk_location_id' => null
+        'invoice_file' => null
+        'status' => null
+        'ip' => null
+        'crt_time' => null
+        'crt_by' => null
+        'mod_time' => null
+        'mod_by' => null
+        'po_id' => null
+        'vendor' => null
+        'payment_status' => null
+        'total_received' => null
+    ]
+    'TblPurchaseOrderSearch_search' => [
+        'id' => null
+        'po_number' => null
+        'fk_vendor_id' => null
+        'po_date' => null
+        'expected_delivery_date' => null
+        'hst' => null
+        'subtotal' => null
+        'hst_amount' => null
+        'total_amount' => null
+        'comments' => null
+        'internal_notes' => null
+        'purchase_status' => null
+        'payment_status' => null
+        'approved_by' => null
+        'fk_location_id' => null
+        'status' => null
+        'ip' => null
+        'crt_time' => null
+        'crt_by' => null
+        'mod_time' => null
+        'mod_by' => null
+        'is_converted' => null
+        'vendor' => null
+    ]
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragons\\www\\hkmis\\yii2app\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60521'
+    'SERVER_SOFTWARE' => 'PHP/8.3.30 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=vendor-invoice%2Fupdate&id=501'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragons\\www\\hkmis\\yii2app\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=vendor-invoice%2Fupdate&id=501'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/index.php?r=purchase-order/view&id=12'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.9'
+    'HTTP_COOKIE' => 'PHPSESSID=kmamn9632bujot36dt5d8nud4s; _csrf=41bc4da8315f5462e5419413371fe7cecb4c2d76f8ff977952288e0d45abfcc3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22elO3uxi6oM5LwMnvB_m1cZBdG7vXC4kb%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1774627212.4275
+    'REQUEST_TIME' => 1774627212
+]
+2026-03-27 16:00:15 [::1][-][kmamn9632bujot36dt5d8nud4s][error][yii\base\ErrorException:8192] yii\base\ErrorException: str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragons\www\hkmis\yii2app\views\vendor-invoice\_form.php:678
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8192, 'str_replace(): ...', 'C:\\laragons\\www...', 678)
+#1 C:\laragons\www\hkmis\yii2app\views\vendor-invoice\_form.php(678): str_replace(Array, ' ', NULL)
+#2 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\View.php(347): require('C:\\laragons\\www...')
+#3 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\laragons\\www...', Array)
+#4 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\laragons\\www...', Array, NULL)
+#5 C:\laragons\www\hkmis\yii2app\views\vendor-invoice\update.php(27): yii\base\View->render('_form', Array)
+#6 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\View.php(347): require('C:\\laragons\\www...')
+#7 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\laragons\\www...', Array)
+#8 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\laragons\\www...', Array, Object(app\controllers\VendorInvoiceController))
+#9 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Controller.php(450): yii\base\View->render('update', Array, Object(app\controllers\VendorInvoiceController))
+#10 C:\laragons\www\hkmis\yii2app\controllers\VendorInvoiceController.php(379): yii\base\Controller->render('update', Array)
+#11 [internal function]: app\controllers\VendorInvoiceController->actionUpdate('501')
+#12 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\InlineAction.php(66): call_user_func_array(Array, Array)
+#13 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Controller.php(197): yii\base\InlineAction->runWithParams(Array)
+#14 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Module.php(554): yii\base\Controller->runAction('update', Array)
+#15 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\web\Application.php(112): yii\base\Module->runAction('vendor-invoice/...', Array)
+#16 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Application.php(391): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 C:\laragons\www\hkmis\yii2app\web\index.php(12): yii\base\Application->run()
+#18 {main}
+2026-03-27 16:00:15 [::1][-][kmamn9632bujot36dt5d8nud4s][info][application] $_GET = [
+    'r' => 'vendor-invoice/update'
+    'id' => '501'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'kmamn9632bujot36dt5d8nud4s'
+    '_csrf' => '41bc4da8315f5462e5419413371fe7cecb4c2d76f8ff977952288e0d45abfcc3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"elO3uxi6oM5LwMnvB_m1cZBdG7vXC4kb\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'username' => 'MANJOT'
+    'userId' => 21
+    'userCompany' => '1'
+    'TblVendorInvoiceSearch_search' => [
+        'id' => null
+        'vendor_invoice_number' => null
+        'purchase_invoice_no' => null
+        'fk_vendor_id' => null
+        'fk_purchase_order_id' => null
+        'fk_terms_id' => null
+        'invoice_date' => null
+        'due_date' => null
+        'hst' => null
+        'discount_type' => null
+        'discount_value' => null
+        'subtotal' => null
+        'hst_amount' => null
+        'total_amount' => null
+        'comments' => null
+        'fk_location_id' => null
+        'invoice_file' => null
+        'status' => null
+        'ip' => null
+        'crt_time' => null
+        'crt_by' => null
+        'mod_time' => null
+        'mod_by' => null
+        'po_id' => null
+        'vendor' => null
+        'payment_status' => null
+        'total_received' => null
+    ]
+    'TblPurchaseOrderSearch_search' => [
+        'id' => null
+        'po_number' => null
+        'fk_vendor_id' => null
+        'po_date' => null
+        'expected_delivery_date' => null
+        'hst' => null
+        'subtotal' => null
+        'hst_amount' => null
+        'total_amount' => null
+        'comments' => null
+        'internal_notes' => null
+        'purchase_status' => null
+        'payment_status' => null
+        'approved_by' => null
+        'fk_location_id' => null
+        'status' => null
+        'ip' => null
+        'crt_time' => null
+        'crt_by' => null
+        'mod_time' => null
+        'mod_by' => null
+        'is_converted' => null
+        'vendor' => null
+    ]
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragons\\www\\hkmis\\yii2app\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '51544'
+    'SERVER_SOFTWARE' => 'PHP/8.3.30 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=vendor-invoice%2Fupdate&id=501'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragons\\www\\hkmis\\yii2app\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=vendor-invoice%2Fupdate&id=501'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/index.php?r=purchase-order/view&id=12'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.9'
+    'HTTP_COOKIE' => 'PHPSESSID=kmamn9632bujot36dt5d8nud4s; _csrf=41bc4da8315f5462e5419413371fe7cecb4c2d76f8ff977952288e0d45abfcc3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22elO3uxi6oM5LwMnvB_m1cZBdG7vXC4kb%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1774627215.162
+    'REQUEST_TIME' => 1774627215
+]
+2026-03-27 16:53:15 [::1][-][kmamn9632bujot36dt5d8nud4s][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: app\models\TblVendorInvoiceSearch::po_number in C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Component.php:159
+Stack trace:
+#0 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\BaseActiveRecord.php(295): yii\base\Component->__get('po_number')
+#1 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\helpers\BaseHtml.php(2296): yii\db\BaseActiveRecord->__get('po_number')
+#2 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\helpers\BaseHtml.php(1388): yii\helpers\BaseHtml::getAttributeValue(Object(app\models\TblVendorInvoiceSearch), 'po_number')
+#3 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\helpers\BaseHtml.php(1444): yii\helpers\BaseHtml::activeInput('text', Object(app\models\TblVendorInvoiceSearch), 'po_number', Array)
+#4 C:\laragons\www\hkmis\yii2app\views\vendor-invoice\index.php(178): yii\helpers\BaseHtml::activeTextInput(Object(app\models\TblVendorInvoiceSearch), 'po_number', Array)
+#5 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\View.php(347): require('C:\\laragons\\www...')
+#6 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\laragons\\www...', Array)
+#7 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\laragons\\www...', Array, Object(app\controllers\VendorInvoiceController))
+#8 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Controller.php(450): yii\base\View->render('index', Array, Object(app\controllers\VendorInvoiceController))
+#9 C:\laragons\www\hkmis\yii2app\controllers\VendorInvoiceController.php(58): yii\base\Controller->render('index', Array)
+#10 [internal function]: app\controllers\VendorInvoiceController->actionIndex()
+#11 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\InlineAction.php(66): call_user_func_array(Array, Array)
+#12 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Controller.php(197): yii\base\InlineAction->runWithParams(Array)
+#13 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Module.php(554): yii\base\Controller->runAction('index', Array)
+#14 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\web\Application.php(112): yii\base\Module->runAction('vendor-invoice/...', Array)
+#15 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Application.php(391): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 C:\laragons\www\hkmis\yii2app\web\index.php(12): yii\base\Application->run()
+#17 {main}
+2026-03-27 16:53:15 [::1][-][kmamn9632bujot36dt5d8nud4s][info][application] $_GET = [
+    'r' => 'vendor-invoice/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'kmamn9632bujot36dt5d8nud4s'
+    '_csrf' => '41bc4da8315f5462e5419413371fe7cecb4c2d76f8ff977952288e0d45abfcc3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"elO3uxi6oM5LwMnvB_m1cZBdG7vXC4kb\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'username' => 'MANJOT'
+    'userId' => 21
+    'userCompany' => '1'
+    'TblVendorInvoiceSearch_search' => [
+        'id' => null
+        'vendor_invoice_number' => null
+        'purchase_invoice_no' => null
+        'fk_vendor_id' => null
+        'fk_purchase_order_id' => null
+        'fk_terms_id' => null
+        'invoice_date' => null
+        'due_date' => null
+        'hst' => null
+        'discount_type' => null
+        'discount_value' => null
+        'subtotal' => null
+        'hst_amount' => null
+        'total_amount' => null
+        'comments' => null
+        'fk_location_id' => null
+        'invoice_file' => null
+        'status' => null
+        'ip' => null
+        'crt_time' => null
+        'crt_by' => null
+        'mod_time' => null
+        'mod_by' => null
+        'po_id' => null
+        'vendor' => null
+        'payment_status' => null
+        'total_received' => null
+    ]
+    'TblPurchaseOrderSearch_search' => [
+        'id' => null
+        'po_number' => null
+        'fk_vendor_id' => null
+        'po_date' => null
+        'expected_delivery_date' => null
+        'hst' => null
+        'subtotal' => null
+        'hst_amount' => null
+        'total_amount' => null
+        'comments' => null
+        'internal_notes' => null
+        'purchase_status' => null
+        'payment_status' => null
+        'approved_by' => null
+        'fk_location_id' => null
+        'status' => null
+        'ip' => null
+        'crt_time' => null
+        'crt_by' => null
+        'mod_time' => null
+        'mod_by' => null
+        'is_converted' => null
+        'vendor' => null
+    ]
+    'TblVendorInvoiceSearch_sort' => '-vendor_invoice_number'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragons\\www\\hkmis\\yii2app\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '55022'
+    'SERVER_SOFTWARE' => 'PHP/8.3.30 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=vendor-invoice%2Findex'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragons\\www\\hkmis\\yii2app\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=vendor-invoice%2Findex'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/index.php?r=purchase-order%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.9'
+    'HTTP_COOKIE' => 'PHPSESSID=kmamn9632bujot36dt5d8nud4s; _csrf=41bc4da8315f5462e5419413371fe7cecb4c2d76f8ff977952288e0d45abfcc3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22elO3uxi6oM5LwMnvB_m1cZBdG7vXC4kb%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1774630395.1414
+    'REQUEST_TIME' => 1774630395
+]
+2026-03-27 16:54:12 [::1][-][kmamn9632bujot36dt5d8nud4s][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: app\models\TblVendorInvoiceSearch::po_number in C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Component.php:159
+Stack trace:
+#0 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\db\BaseActiveRecord.php(295): yii\base\Component->__get('po_number')
+#1 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\helpers\BaseHtml.php(2296): yii\db\BaseActiveRecord->__get('po_number')
+#2 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\helpers\BaseHtml.php(1388): yii\helpers\BaseHtml::getAttributeValue(Object(app\models\TblVendorInvoiceSearch), 'po_number')
+#3 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\helpers\BaseHtml.php(1444): yii\helpers\BaseHtml::activeInput('text', Object(app\models\TblVendorInvoiceSearch), 'po_number', Array)
+#4 C:\laragons\www\hkmis\yii2app\views\vendor-invoice\index.php(178): yii\helpers\BaseHtml::activeTextInput(Object(app\models\TblVendorInvoiceSearch), 'po_number', Array)
+#5 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\View.php(347): require('C:\\laragons\\www...')
+#6 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\laragons\\www...', Array)
+#7 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\laragons\\www...', Array, Object(app\controllers\VendorInvoiceController))
+#8 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Controller.php(450): yii\base\View->render('index', Array, Object(app\controllers\VendorInvoiceController))
+#9 C:\laragons\www\hkmis\yii2app\controllers\VendorInvoiceController.php(58): yii\base\Controller->render('index', Array)
+#10 [internal function]: app\controllers\VendorInvoiceController->actionIndex()
+#11 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\InlineAction.php(66): call_user_func_array(Array, Array)
+#12 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Controller.php(197): yii\base\InlineAction->runWithParams(Array)
+#13 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Module.php(554): yii\base\Controller->runAction('index', Array)
+#14 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\web\Application.php(112): yii\base\Module->runAction('vendor-invoice/...', Array)
+#15 C:\laragons\www\hkmis\yii2app\vendor\yiisoft\yii2\base\Application.php(391): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 C:\laragons\www\hkmis\yii2app\web\index.php(12): yii\base\Application->run()
+#17 {main}
+2026-03-27 16:54:12 [::1][-][kmamn9632bujot36dt5d8nud4s][info][application] $_GET = [
+    'r' => 'vendor-invoice/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'kmamn9632bujot36dt5d8nud4s'
+    '_csrf' => '41bc4da8315f5462e5419413371fe7cecb4c2d76f8ff977952288e0d45abfcc3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"elO3uxi6oM5LwMnvB_m1cZBdG7vXC4kb\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'username' => 'MANJOT'
+    'userId' => 21
+    'userCompany' => '1'
+    'TblVendorInvoiceSearch_search' => [
+        'id' => null
+        'vendor_invoice_number' => null
+        'purchase_invoice_no' => null
+        'fk_vendor_id' => null
+        'fk_purchase_order_id' => null
+        'fk_terms_id' => null
+        'invoice_date' => null
+        'due_date' => null
+        'hst' => null
+        'discount_type' => null
+        'discount_value' => null
+        'subtotal' => null
+        'hst_amount' => null
+        'total_amount' => null
+        'comments' => null
+        'fk_location_id' => null
+        'invoice_file' => null
+        'status' => null
+        'ip' => null
+        'crt_time' => null
+        'crt_by' => null
+        'mod_time' => null
+        'mod_by' => null
+        'po_id' => null
+        'vendor' => null
+        'payment_status' => null
+        'total_received' => null
+    ]
+    'TblPurchaseOrderSearch_search' => [
+        'id' => null
+        'po_number' => null
+        'fk_vendor_id' => null
+        'po_date' => null
+        'expected_delivery_date' => null
+        'hst' => null
+        'subtotal' => null
+        'hst_amount' => null
+        'total_amount' => null
+        'comments' => null
+        'internal_notes' => null
+        'purchase_status' => null
+        'payment_status' => null
+        'approved_by' => null
+        'fk_location_id' => null
+        'status' => null
+        'ip' => null
+        'crt_time' => null
+        'crt_by' => null
+        'mod_time' => null
+        'mod_by' => null
+        'is_converted' => null
+        'vendor' => null
+    ]
+    'TblVendorInvoiceSearch_sort' => '-vendor_invoice_number'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragons\\www\\hkmis\\yii2app\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '56131'
+    'SERVER_SOFTWARE' => 'PHP/8.3.30 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=vendor-invoice%2Findex'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragons\\www\\hkmis\\yii2app\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=vendor-invoice%2Findex'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/index.php?r=purchase-order%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.9'
+    'HTTP_COOKIE' => 'PHPSESSID=kmamn9632bujot36dt5d8nud4s; _csrf=41bc4da8315f5462e5419413371fe7cecb4c2d76f8ff977952288e0d45abfcc3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22elO3uxi6oM5LwMnvB_m1cZBdG7vXC4kb%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1774630452.1417
+    'REQUEST_TIME' => 1774630452
+]
